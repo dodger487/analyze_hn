@@ -7,6 +7,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 
 library(ggplot2)
+library(scales)
 theme_set(theme_minimal())
 ```
 
@@ -21,6 +22,24 @@ stories <- map_df(dir("../scrape_hn/", pattern = "output.*.csv", full.names = TR
                   read_csv) %>%
   filter(!is.na(title))
 ```
+
+Classify their topics.
+
+```{r story_topics, dependson = c("stories", "articles")}
+library(fuzzyjoin)
+library(stringr)
+topic_regexes <- read_csv("topics.csv")
+
+story_topics <- stories %>%
+  select(id, title) %>%
+  mutate(title = str_to_lower(title)) %>%
+  regex_inner_join(topic_regexes, by = c(title = "regex"))
+
+story_topics %>%
+  select(-title, -regex) %>%
+  write_csv("../analyze_hn/supervised_topics.csv")
+```
+
 
 Most common words:
 
@@ -59,6 +78,11 @@ title_cors <- title_words %>%
 library(igraph)
 library(ggraph)
 
+word_summary <- title_words %>%
+  add_count(word) %>%
+  filter(n >= 50) %>%
+  group_by(word) %>% 
+
 set.seed(2017)
 
 title_cors %>%
@@ -93,33 +117,22 @@ article_words <- articles %>%
          str_detect(word, "[^\\d]"))
 ```
 
-### Create a supervised topic set
-
-Classify their topics.
-
-```{r story_topics, dependson = c("stories", "articles")}
-library(fuzzyjoin)
-library(stringr)
-topic_regexes <- read_csv("topics.csv")
-
-story_topics <- stories %>%
-  select(id, title) %>%
-  mutate(title = str_to_lower(title)) %>%
-  regex_inner_join(topic_regexes, by = c(title = "regex"))
-
-story_topics %>%
-  select(-title, -regex) %>%
-  write_csv("../analyze_hn/supervised_topics.csv")
-```
-
 How many instances of each article occurred?
 
-```{r}
+```{r story_topics_bar, dependson = "story_topics"}
+num_stories <- n_distinct(story_topics$id)
+  
 story_topics %>%
   count(topic, sort = TRUE) %>%
-  ggplot(aes())
+  mutate(topic = reorder(topic, n)) %>%
+  ggplot(aes(topic, n / num_stories)) +
+  geom_col() +
+  scale_y_continuous(labels = percent_format()) +
+  coord_flip() +
+  labs(x = "",
+       y = "% of articles with this topic",
+       title = "Topics with the most representation in training set")
 ```
-
 
 ### More analysis of articles
 
@@ -163,7 +176,6 @@ tidy(article_word_tm) %>%
   scale_x_reordered() +
   facet_wrap(~ topic, scales = "free")
 ```
-
 
 
 ```{r}
