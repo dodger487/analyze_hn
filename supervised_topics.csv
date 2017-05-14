@@ -61,13 +61,11 @@ id,topic
 14270566,Mobile
 14270560,AI/Machine Learning
 14270452,Databases
-14270209,Data Science
 14269936,Amazon
 14269924,AI/Machine Learning
 14269846,Google
 14269615,Mobile
 14269396,Self-driving car
-14269384,Data Science
 14269360,Facebook
 14269327,Google
 14269294,Apple
@@ -175,7 +173,6 @@ id,topic
 14261851,Amazon
 14261788,Amazon
 14261527,Javascript
-14261449,Data Science
 14261404,AI/Machine Learning
 14261314,Facebook
 14261302,Apple
@@ -199,7 +196,6 @@ id,topic
 14260030,Google
 14260030,Self-driving car
 14260021,Facebook
-14259862,Data Science
 14259769,Tesla
 14259700,Google
 14259682,Security
@@ -218,7 +214,6 @@ id,topic
 14259034,Security
 14259031,AI/Machine Learning
 14258878,Facebook
-14258758,Data Science
 14258632,Facebook
 14258503,Amazon
 14258464,Microsoft
@@ -261,14 +256,12 @@ id,topic
 14255734,Javascript
 14255722,AI/Machine Learning
 14255632,Startups
-14255602,Data Science
 14255572,AI/Machine Learning
 14255554,Design
 14255527,Google
 14255527,Facebook
 14255500,Startups
 14255395,Mobile
-14255281,Data Science
 14255203,Python
 14255200,Design
 14255128,Java
@@ -306,10 +299,8 @@ id,topic
 14253352,Mobile
 14253352,Design
 14253169,Blockchain
-14252911,Data Science
 14252911,Facebook
 14252896,Javascript
-14252896,Data Science
 14252863,Javascript
 14252404,Tesla
 14251918,Python
@@ -317,7 +308,6 @@ id,topic
 14251804,Apple
 14251780,Tesla
 14250910,Facebook
-14250889,Data Science
 14250814,Security
 14250637,Microsoft
 14250538,System Administration/Dev Ops
@@ -334,11 +324,9 @@ id,topic
 14249572,Startups
 14249542,Startups
 14249527,Politics
-14249356,Data Science
 14249338,Microsoft
 14249323,Microsoft
 14249194,Security
-14249152,Data Science
 14249134,Google
 14248861,Java
 14248822,Self-driving car
@@ -400,7 +388,6 @@ id,topic
 14244976,Microsoft
 14244973,Microsoft
 14244892,Startups
-14244796,Data Science
 14244715,Microsoft
 14244682,Mobile
 14244664,Javascript
@@ -420,7 +407,6 @@ id,topic
 14243341,Linux
 14243221,Startups
 14242756,Blockchain
-14242507,Data Science
 14242459,Mobile
 14242450,AI/Machine Learning
 14242417,Microsoft
@@ -437,10 +423,498 @@ id,topic
 14240707,Startups
 14240620,Design
 14240569,Design
-14240569,Data Science
 14240470,AI/Machine Learning
 14240389,Mobile
 14240263,Mobile
+14240125,Python
+14239930,Politics
+14239552,Startups
+14239372,Google
+14239117,Mobile
+14239117,Google
+14238877,Startups
+14238796,Google
+14238676,System Administration/Dev Ops
+14238607,Python
+14238370,Databases
+14238226,Google
+14238202,Google
+14237986,Mobile
+14237968,Microsoft
+14237959,Mobile
+14237875,Apple
+14237689,Blockchain
+14237674,Google
+14237608,Apple
+14237524,Microsoft
+14237524,Linux
+14237347,Facebook
+14237266,Security
+14237029,Politics
+14236990,Databases
+14236945,Blockchain
+14236864,Linux
+14236837,Facebook
+14236732,Amazon
+14236669,Javascript
+14236603,Startups
+14236534,Linux
+14236414,Blockchain
+14236378,Linux
+14236360,Facebook
+14236348,Microsoft
+14236321,Google
+14236252,System Administration/Dev Ops
+14236240,Facebook
+14236069,Mobile
+14236069,Design
+14236069,Apple
+14236036,Javascript
+14235955,Mobile
+14235517,Amazon
+14235442,Tesla
+14235355,Facebook
+14235340,Linux
+14235031,Mobile
+14234956,Security
+14234941,Amazon
+14234872,Security
+14234734,Javascript
+14234671,Politics
+14234593,Design
+14234356,Politics
+14234356,Linux
+14234107,System Administration/Dev Ops
+14234068,System Administration/Dev Ops
+14233951,Facebook
+14233765,Politics
+14233645,Security
+14233543,Tesla
+14233423,Google
+14233225,Security
+14233210,Microsoft
+14233210,Startups
+14233111,Amazon
+14232670,Apple
+14232571,Javascript
+14232418,Java
+14232364,Startups
+14232136,Design
+14231986,Mobile
+14231611,Politics
+14231353,Microsoft
+14231353,Apple
+14231074,Microsoft
+14231008,Security
+14231008,Politics
+14230888,Design
+14230888,Security
+14230795,Google
+14230600,Javascript
+14230534,Security
+14230078,Apple
+14229745,Politics
+14229412,Politics
+14229400,Startups
+14229304,Mobile
+14229250,Linux
+14229232,Politics
+14229190,Javascript
+14229079,Google
+14229073,Linux
+14228746,Javascript
+14228620,AI/Machine Learning
+14228371,Politics
+14228314,Self-driving car
+14228197,Mobile
+14227876,Security
+14227747,Linux
+14227741,Security
+14227681,Blockchain
+14227678,Design
+14227678,Databases
+14227471,Linux
+14227468,Blockchain
+14227414,Mobile
+14227297,AI/Machine Learning
+14226823,Databases
+14226790,Security
+14226787,Amazon
+14226730,Google
+14226676,Mobile
+14226574,Mobile
+14226538,Python
+14226538,AI/Machine Learning
+14226274,Security
+14226274,Google
+14226259,Javascript
+14226172,Politics
+14226088,Apple
+14225935,Google
+14225854,Politics
+14225362,Python
+14225236,Mobile
+14225011,Startups
+14224984,Java
+14224900,Google
+14224900,Startups
+14224714,Databases
+14224417,Google
+14224417,Facebook
+14224159,Databases
+14224141,Javascript
+14224138,Security
+14224126,Design
+14223895,Amazon
+14223517,Python
+14223427,Databases
+14223340,Startups
+14223277,AI/Machine Learning
+14223007,Design
+14222998,AI/Machine Learning
+14222923,Javascript
+14222923,Self-driving car
+14222734,Javascript
+14222716,Javascript
+14222680,Google
+14222557,Politics
+14222485,AI/Machine Learning
+14222473,Google
+14222473,Self-driving car
+14222299,Politics
+14222251,Tesla
+14222194,Mobile
+14222167,Politics
+14221786,Security
+14221738,Apple
+14221669,Politics
+14221567,Microsoft
+14221411,Mobile
+14221411,Security
+14221108,Google
+14221066,AI/Machine Learning
+14220820,Databases
+14220631,Javascript
+14220631,Java
+14220577,Google
+14220577,Facebook
+14220514,Linux
+14220445,AI/Machine Learning
+14220310,AI/Machine Learning
+14220307,Javascript
+14220253,Mobile
+14220214,Startups
+14220049,Mobile
+14219965,Facebook
+14219818,Google
+14219752,Startups
+14219677,Blockchain
+14219677,Startups
+14219629,Mobile
+14219545,Security
+14219527,Design
+14219494,Facebook
+14219485,System Administration/Dev Ops
+14219416,Python
+14219359,Politics
+14219320,Databases
+14219311,Mobile
+14219266,AI/Machine Learning
+14219194,Design
+14219185,Mobile
+14219176,Apple
+14219152,Design
+14219011,Databases
+14218999,Javascript
+14218843,Self-driving car
+14218834,Google
+14218801,Security
+14218795,Mobile
+14218789,Google
+14218789,Facebook
+14218780,Linux
+14218762,Mobile
+14218567,Startups
+14218519,Politics
+14218276,Facebook
+14218276,Politics
+14218270,Security
+14218177,Javascript
+14218099,Startups
+14218036,Mobile
+14217832,Google
+14217772,Google
+14217679,Security
+14217679,Linux
+14217643,Microsoft
+14217634,Startups
+14217583,Security
+14217502,Mobile
+14217502,Startups
+14217481,Amazon
+14217325,AI/Machine Learning
+14217301,Javascript
+14217250,Design
+14217187,Politics
+14217160,Politics
+14216893,Mobile
+14216563,Apple
+14216563,Self-driving car
+14216557,Startups
+14216374,Linux
+14216329,Security
+14216164,Design
+14216134,Blockchain
+14215984,Google
+14215972,Javascript
+14215810,Javascript
+14215798,Javascript
+14215798,Security
+14215771,Python
+14215642,Design
+14215450,Databases
+14215393,Google
+14215294,Startups
+14215132,Apple
+14215009,Self-driving car
+14214751,AI/Machine Learning
+14214700,Google
+14214694,Amazon
+14214421,AI/Machine Learning
+14214382,Databases
+14214367,Facebook
+14214307,AI/Machine Learning
+14214241,AI/Machine Learning
+14214049,Apple
+14213911,Politics
+14213911,Databases
+14213905,Self-driving car
+14213809,Self-driving car
+14213779,Google
+14213707,Security
+14213638,Google
+14213638,Amazon
+14213611,Tesla
+14213608,Security
+14213362,Mobile
+14213362,AI/Machine Learning
+14213260,Security
+14212993,Design
+14212960,Design
+14212867,Design
+14212843,Blockchain
+14212837,Blockchain
+14212810,Javascript
+14212810,AI/Machine Learning
+14212744,Facebook
+14212741,Facebook
+14212717,Mobile
+14212717,Startups
+14212657,Facebook
+14212639,Startups
+14212510,Startups
+14212378,AI/Machine Learning
+14212348,Politics
+14212261,Design
+14212114,Facebook
+14212054,Design
+14212051,Politics
+14211928,Politics
+14211850,AI/Machine Learning
+14211724,Python
+14211466,Python
+14211196,Python
+14210893,Startups
+14210890,Startups
+14210890,Politics
+14210821,AI/Machine Learning
+14210785,Mobile
+14210704,Javascript
+14210578,Mobile
+14210362,Mobile
+14210305,Google
+14210212,Politics
+14210209,Design
+14210050,Design
+14209843,Mobile
+14209762,Startups
+14209681,Facebook
+14209639,Mobile
+14209615,Databases
+14209504,Javascript
+14209498,Design
+14209363,Mobile
+14209363,Apple
+14209159,Microsoft
+14209102,Facebook
+14208892,AI/Machine Learning
+14208874,Politics
+14208754,Mobile
+14208751,Java
+14208385,Blockchain
+14208304,Startups
+14208298,Mobile
+14208298,Microsoft
+14208268,Amazon
+14208241,Politics
+14208121,Microsoft
+14208052,Mobile
+14207947,Facebook
+14207911,Linux
+14207488,Security
+14207380,Amazon
+14207185,Google
+14207116,Blockchain
+14207107,Blockchain
+14207062,Amazon
+14207035,Security
+14206798,Politics
+14206690,Politics
+14206630,Startups
+14206615,Mobile
+14206603,Microsoft
+14206582,Mobile
+14206567,Javascript
+14206462,Security
+14206321,Amazon
+14206309,Microsoft
+14206189,AI/Machine Learning
+14206057,Politics
+14205997,Politics
+14205940,Self-driving car
+14205742,Microsoft
+14205715,Self-driving car
+14205697,Politics
+14205682,Design
+14205472,Design
+14205445,Politics
+14205307,Javascript
+14205307,Java
+14205214,Google
+14205145,Security
+14205091,Linux
+14205019,Politics
+14204947,AI/Machine Learning
+14204923,Amazon
+14204884,Google
+14204878,Politics
+14204818,Security
+14204812,Linux
+14204794,AI/Machine Learning
+14204761,Javascript
+14204749,Python
+14204728,AI/Machine Learning
+14204719,Startups
+14204719,Politics
+14204548,Blockchain
+14204506,Mobile
+14204503,Amazon
+14204248,Mobile
+14204200,Google
+14204191,Startups
+14203870,Python
+14203678,AI/Machine Learning
+14203666,Security
+14203633,Self-driving car
+14203594,Amazon
+14203462,Security
+14203384,Startups
+14203096,Databases
+14202721,Google
+14202712,Google
+14202682,Javascript
+14202658,Politics
+14202607,Mobile
+14202607,System Administration/Dev Ops
+14202340,Javascript
+14202340,Mobile
+14202331,Startups
+14202331,Politics
+14202280,Google
+14202280,Databases
+14202268,Microsoft
+14202208,Linux
+14202124,Mobile
+14202112,Microsoft
+14202112,Apple
+14202097,Amazon
+14202088,Linux
+14202034,Javascript
+14201944,Blockchain
+14201938,Facebook
+14201923,Mobile
+14201908,Security
+14201869,Startups
+14201839,Linux
+14201827,Javascript
+14201827,Design
+14201776,AI/Machine Learning
+14201770,Python
+14201719,Blockchain
+14201710,Javascript
+14201374,Google
+14201374,Microsoft
+14201302,AI/Machine Learning
+14201149,Tesla
+14201119,Amazon
+14201080,Design
+14201068,Amazon
+14201035,Facebook
+14200987,Politics
+14200978,System Administration/Dev Ops
+14200849,Mobile
+14200840,Startups
+14200822,Google
+14200816,Google
+14200807,Mobile
+14200807,Google
+14200726,Mobile
+14200708,Javascript
+14200381,AI/Machine Learning
+14200240,Apple
+14200240,Self-driving car
+14200222,Apple
+14200147,Mobile
+14199973,Javascript
+14199904,Politics
+14199664,Amazon
+14199310,Microsoft
+14199040,Mobile
+14199040,Design
+14198767,Startups
+14198599,Mobile
+14198542,Mobile
+14197990,Mobile
+14197990,Apple
+14197975,Google
+14197858,Microsoft
+14197843,Apple
+14197723,Databases
+14197609,AI/Machine Learning
+14197570,Politics
+14197108,Facebook
+14196763,AI/Machine Learning
+14196724,Google
+14196724,Amazon
+14196637,Security
+14196601,Linux
+14196553,System Administration/Dev Ops
+14196538,Design
+14196538,Politics
+14196502,Mobile
+14196502,Linux
+14196496,Security
+14196475,Amazon
+14196448,Startups
+14196163,Design
+14196121,Security
+14196121,Politics
+14196079,Security
+14196052,Amazon
+14196052,Startups
+14196040,Javascript
+14196034,Google
+14196022,Startups
 14332618,Politics
 14332519,Blockchain
 14332495,Apple
@@ -511,7 +985,6 @@ id,topic
 14328631,Amazon
 14328574,Amazon
 14328571,Security
-14328571,Data Science
 14328547,Design
 14328547,Microsoft
 14328484,Mobile
@@ -521,7 +994,6 @@ id,topic
 14328460,Javascript
 14328460,Facebook
 14328397,Security
-14328397,Data Science
 14328388,Security
 14328364,Politics
 14328316,Politics
@@ -588,7 +1060,6 @@ id,topic
 14323882,Blockchain
 14323834,Politics
 14323792,Microsoft
-14323762,Data Science
 14323624,Security
 14323552,Amazon
 14323465,Databases
@@ -690,7 +1161,6 @@ id,topic
 14317063,Databases
 14316808,Amazon
 14316760,Python
-14316760,Data Science
 14316715,Politics
 14316703,Politics
 14316667,Microsoft
@@ -788,12 +1258,10 @@ id,topic
 14310100,Tesla
 14309974,Mobile
 14309755,Linux
-14309677,Data Science
 14309662,Databases
 14309548,Startups
 14309467,Microsoft
 14309464,Microsoft
-14309425,Data Science
 14309401,Startups
 14309386,Microsoft
 14309245,Startups
@@ -864,7 +1332,6 @@ id,topic
 14305546,Blockchain
 14305468,Mobile
 14305420,Startups
-14305363,Data Science
 14305252,Apple
 14305240,Politics
 14305111,Python
@@ -972,7 +1439,6 @@ id,topic
 14297905,Startups
 14297833,Politics
 14297683,Self-driving car
-14297629,Data Science
 14297329,Mobile
 14297308,Mobile
 14297305,Google
@@ -997,7 +1463,6 @@ id,topic
 14295922,AI/Machine Learning
 14295820,Design
 14295655,Security
-14295565,Data Science
 14295475,Tesla
 14295439,Javascript
 14295430,Javascript
@@ -1102,7 +1567,6 @@ id,topic
 14284405,Mobile
 14284273,Mobile
 14284273,Design
-14284183,Data Science
 14284183,Google
 14283751,Mobile
 14283751,Design
@@ -1164,7 +1628,6 @@ id,topic
 14268591,Javascript
 14268129,Microsoft
 14268096,Blockchain
-14268090,Data Science
 14267943,Python
 14267796,Mobile
 14267691,Databases
@@ -1222,7 +1685,6 @@ id,topic
 14264211,Design
 14264001,Mobile
 14263989,Design
-14263950,Data Science
 14263875,Security
 14263857,Security
 14263770,Apple
@@ -1260,7 +1722,6 @@ id,topic
 14261781,Linux
 14261775,Amazon
 14261751,Politics
-14261577,Data Science
 14261559,Mobile
 14261520,Microsoft
 14261520,Apple
@@ -1306,9 +1767,7 @@ id,topic
 14258802,Politics
 14258520,Apple
 14258373,Mobile
-14258271,Data Science
 14258199,Python
-14257824,Data Science
 14257821,Mobile
 14257719,Javascript
 14257689,Amazon
@@ -1330,10 +1789,8 @@ id,topic
 14256180,Startups
 14256156,Startups
 14256075,Facebook
-14256012,Data Science
 14255925,Mobile
 14255874,Python
-14255700,Data Science
 14255685,Javascript
 14255685,Java
 14255673,Self-driving car
@@ -1374,7 +1831,6 @@ id,topic
 14252910,Startups
 14252781,Apple
 14252772,Facebook
-14252757,Data Science
 14252727,Politics
 14252454,Apple
 14252412,Microsoft
@@ -1389,7 +1845,6 @@ id,topic
 14250360,Mobile
 14250360,Google
 14250234,Python
-14250192,Data Science
 14249706,Startups
 14249406,Security
 14249178,Facebook
@@ -1408,7 +1863,6 @@ id,topic
 14247810,Mobile
 14247804,Microsoft
 14247783,Databases
-14247723,Data Science
 14247615,Linux
 14247459,Microsoft
 14247333,Politics
@@ -1459,7 +1913,6 @@ id,topic
 14245074,Design
 14244879,Google
 14244870,Apple
-14244801,Data Science
 14244726,Startups
 14244681,Politics
 14244639,Mobile
@@ -1471,7 +1924,6 @@ id,topic
 14244369,Mobile
 14244051,Design
 14243433,Security
-14243187,Data Science
 14243064,Mobile
 14242965,Google
 14242965,Apple
@@ -1499,7 +1951,6 @@ id,topic
 14239671,Security
 14239458,Design
 14239458,AI/Machine Learning
-14239197,Data Science
 14239101,Blockchain
 14238933,Mobile
 14238891,Google
@@ -1550,21 +2001,17 @@ id,topic
 14234931,Amazon
 14234889,Mobile
 14234877,Mobile
-14234868,Data Science
 14234562,Javascript
 14234448,Design
 14234379,Google
 14234298,AI/Machine Learning
 14234250,Amazon
-14233956,Data Science
 14233776,AI/Machine Learning
-14233776,Data Science
 14233749,Startups
 14233641,Google
 14233560,Security
 14233485,Security
 14233203,Linux
-14233107,Data Science
 14233095,AI/Machine Learning
 14233062,Politics
 14233032,Blockchain
@@ -1597,8 +2044,558 @@ id,topic
 14230275,Startups
 14229645,Microsoft
 14229633,Microsoft
+14229330,Startups
+14228556,Startups
+14228508,AI/Machine Learning
+14228454,Java
+14227950,Google
+14227827,Facebook
+14227827,Startups
+14227815,Mobile
+14227644,Politics
+14227422,Amazon
+14227395,Security
+14227317,Mobile
+14227308,Python
+14227248,Startups
+14227131,Javascript
+14227062,Javascript
+14227047,Javascript
+14226690,Startups
+14226591,Blockchain
+14226564,Linux
+14226525,Javascript
+14226519,Politics
+14226516,AI/Machine Learning
+14226513,Politics
+14226444,Databases
+14226348,Java
+14226261,Javascript
+14226234,Design
+14226192,Linux
+14225988,Startups
+14225883,Politics
+14225613,Design
+14225478,AI/Machine Learning
+14225433,Google
+14225430,Python
+14225430,Design
+14225367,Politics
+14225349,AI/Machine Learning
+14225340,Amazon
+14225301,Security
+14225256,Design
+14225193,Politics
+14224533,Apple
+14224506,Apple
+14224452,Javascript
+14224452,Security
+14224005,Apple
+14223957,Security
+14223630,Politics
+14223501,Google
+14223075,Design
+14222994,Databases
+14222781,Apple
+14222763,Tesla
+14222721,Databases
+14222688,Microsoft
+14222688,Apple
+14222688,Linux
+14222673,Security
+14222673,Politics
+14222586,AI/Machine Learning
+14222493,Javascript
+14222472,Design
+14222472,Startups
+14222469,Microsoft
+14222040,Apple
+14221929,Linux
+14221701,Javascript
+14221587,Google
+14221581,Politics
+14221482,Security
+14221338,Security
+14221326,System Administration/Dev Ops
+14221302,Python
+14221302,AI/Machine Learning
+14221110,Apple
+14221041,Google
+14221032,Security
+14221032,Google
+14221032,Facebook
+14221005,Mobile
+14220972,Python
+14220954,Mobile
+14220816,Google
+14220780,Blockchain
+14220771,Blockchain
+14220696,Python
+14220672,Mobile
+14220642,Java
+14220642,Microsoft
+14220642,Linux
+14220627,Javascript
+14220510,Apple
+14220264,Mobile
+14220171,Security
+14219538,Mobile
+14219499,Google
+14219400,Java
+14219316,AI/Machine Learning
+14219307,Mobile
+14219190,Mobile
+14219118,Security
+14219118,AI/Machine Learning
+14219049,Security
+14218980,Politics
+14218953,System Administration/Dev Ops
+14218920,Javascript
+14218881,Politics
+14218872,Security
+14218845,Google
+14218839,Microsoft
+14218809,Politics
+14218797,Startups
+14218794,Security
+14218722,Mobile
+14218572,Google
+14218560,Google
+14218560,Facebook
+14218239,AI/Machine Learning
+14218113,Self-driving car
+14218098,Politics
+14218089,Mobile
+14218038,Mobile
+14218017,Databases
+14218008,Mobile
+14217984,Startups
+14217984,Politics
+14217870,Security
+14217864,Design
+14217864,AI/Machine Learning
+14217798,Google
+14217771,Apple
+14217771,Self-driving car
+14217606,AI/Machine Learning
+14217429,Security
+14217321,Google
+14217279,Apple
+14217246,Startups
+14217165,Javascript
+14217093,Linux
+14217066,Javascript
+14217066,Google
+14217039,Blockchain
+14217006,Databases
+14216883,Facebook
+14216760,Google
+14216727,AI/Machine Learning
+14216676,Startups
+14216676,Politics
+14216592,Facebook
+14216529,Security
+14216520,Design
+14216472,Mobile
+14216472,Design
+14216334,Java
+14216172,Politics
+14216136,Mobile
+14216079,Design
+14216028,System Administration/Dev Ops
+14215836,Google
+14215836,Facebook
+14215551,System Administration/Dev Ops
+14215416,Startups
+14215344,Blockchain
+14215320,Mobile
+14215125,Politics
+14215077,Facebook
+14214840,AI/Machine Learning
+14214810,Self-driving car
+14214753,Amazon
+14214741,Microsoft
+14214687,Amazon
+14214648,Javascript
+14214498,Javascript
+14214465,Facebook
+14214342,Politics
+14214285,Tesla
+14214237,Startups
+14214237,Politics
+14214219,Microsoft
+14214123,Startups
+14214096,Startups
+14214027,Facebook
+14213856,Amazon
+14213847,Mobile
+14213829,System Administration/Dev Ops
+14213724,Mobile
+14213712,Mobile
+14213679,Mobile
+14213610,Design
+14213601,Mobile
+14213601,Amazon
+14213586,Apple
+14213568,Javascript
+14213550,AI/Machine Learning
+14213529,Facebook
+14213370,Startups
+14213370,Politics
+14213349,Javascript
+14213310,Javascript
+14213223,Google
+14213172,Apple
+14213163,Facebook
+14213163,Politics
+14213139,Mobile
+14213115,Startups
+14213106,Security
+14213106,Politics
+14213055,Startups
+14212989,Google
+14212887,Security
+14212878,Google
+14212674,Javascript
+14212662,Google
+14212662,Facebook
+14212647,Google
+14212647,Self-driving car
+14212575,Mobile
+14212395,AI/Machine Learning
+14212362,Security
+14212326,Facebook
+14212284,Blockchain
+14212278,AI/Machine Learning
+14211975,Politics
+14211963,Mobile
+14211819,Facebook
+14211654,Amazon
+14211465,Google
+14211357,Design
+14211252,System Administration/Dev Ops
+14211162,Design
+14211117,Politics
+14211075,Linux
+14211048,AI/Machine Learning
+14211039,Blockchain
+14211039,Startups
+14211027,Google
+14210955,Google
+14210904,Startups
+14210898,Startups
+14210895,Startups
+14210886,Startups
+14210868,Javascript
+14210853,Security
+14210628,Javascript
+14210601,Google
+14210586,Startups
+14210553,Politics
+14210472,Security
+14210412,Databases
+14210406,Microsoft
+14210370,Mobile
+14210352,Politics
+14210265,Mobile
+14209980,AI/Machine Learning
+14209944,Amazon
+14209776,Security
+14209734,Security
+14209728,Blockchain
+14209647,Javascript
+14209440,Javascript
+14209044,Apple
+14209023,Mobile
+14208975,Microsoft
+14208942,Politics
+14208882,Microsoft
+14208681,Apple
+14208645,Databases
+14208444,Mobile
+14208444,Microsoft
+14208417,Politics
+14208324,Startups
+14208231,Facebook
+14208108,Facebook
+14207874,Design
+14207787,Politics
+14207775,Mobile
+14207775,Security
+14207700,Politics
+14207697,Mobile
+14207697,Amazon
+14207589,Javascript
+14207478,AI/Machine Learning
+14207256,AI/Machine Learning
+14206983,Google
+14206974,Politics
+14206920,Facebook
+14206869,Javascript
+14206497,Mobile
+14206491,AI/Machine Learning
+14206245,Mobile
+14206014,Mobile
+14206014,Microsoft
+14205717,Self-driving car
+14205522,Politics
+14205432,Google
+14205375,Mobile
+14205306,Facebook
+14205126,Amazon
+14205030,Javascript
+14204931,Facebook
+14204829,Blockchain
+14204829,Startups
+14204802,Google
+14204793,Security
+14204793,Linux
+14204778,Blockchain
+14204778,Startups
+14204697,Security
+14204661,Apple
+14204598,Microsoft
+14204541,Startups
+14204535,Politics
+14204529,Javascript
+14204517,Amazon
+14204355,Javascript
+14204313,Google
+14204214,Design
+14204118,Google
+14204112,Apple
+14204043,Linux
+14204028,Security
+14204025,Mobile
+14203995,Politics
+14203842,Politics
+14203722,Design
+14203653,Security
+14203593,Javascript
+14203491,Design
+14203491,System Administration/Dev Ops
+14203476,Mobile
+14203476,Linux
+14203431,Linux
+14203401,AI/Machine Learning
+14203377,Javascript
+14203227,Mobile
+14203197,Politics
+14203038,Microsoft
+14203023,Startups
+14202987,Startups
+14202951,Python
+14202822,AI/Machine Learning
+14202801,Design
+14202792,Startups
+14202663,Javascript
+14202600,Apple
+14202579,Databases
+14202342,Javascript
+14202291,Facebook
+14202273,Startups
+14202210,Javascript
+14202174,Javascript
+14202081,Mobile
+14201931,Design
+14201802,Design
+14201340,Design
+14201163,Amazon
+14201136,Blockchain
+14201088,AI/Machine Learning
+14200989,Mobile
+14200929,Apple
+14200566,Mobile
+14200446,Facebook
+14200365,Facebook
+14200311,Apple
+14200116,Blockchain
+14200098,Facebook
+14200056,Security
+14199975,Mobile
+14199762,Google
+14199351,Security
+14198937,Microsoft
+14198796,Mobile
+14198796,Startups
+14198721,Politics
+14198712,AI/Machine Learning
+14198646,Mobile
+14198598,Politics
+14198553,Design
+14198487,Self-driving car
+14198229,Self-driving car
+14198184,Linux
+14197443,Microsoft
+14197335,AI/Machine Learning
+14197230,Politics
+14197197,Startups
+14197149,Microsoft
+14197149,Linux
+14197026,Startups
+14196804,Design
+14196714,Microsoft
+14196714,Facebook
+14196711,Mobile
+14196456,AI/Machine Learning
+14196270,Google
+14196270,Self-driving car
+14196234,Google
+14196186,Java
+14196186,Mobile
+14196018,Security
+14195958,Mobile
+14195889,Java
+14195844,System Administration/Dev Ops
+14195838,Politics
+14195745,Politics
+14195655,Javascript
+14195277,Security
+14195001,Startups
+14194974,Amazon
+14194845,Google
+14194821,Facebook
+14194632,Databases
+14194605,Javascript
+14194500,Google
+14194416,Startups
+14194353,Google
+14194350,Design
+14194350,Security
+14194287,Design
+14194260,Politics
+14194221,Blockchain
+14194146,Tesla
+14194089,Google
+14193969,Javascript
+14193969,AI/Machine Learning
+14193885,Javascript
+14193882,Java
+14193858,Security
+14193702,Security
+14193702,Google
+14193561,Google
+14193519,Facebook
+14193363,Security
+14193363,System Administration/Dev Ops
+14193162,Self-driving car
+14193132,Mobile
+14193027,Startups
+14192829,Security
+14192829,Microsoft
+14192760,Microsoft
+14192628,Javascript
+14192514,Linux
+14192436,Security
+14192433,Self-driving car
+14192346,Databases
+14192208,Facebook
+14192154,Mobile
+14192154,Politics
+14192094,Amazon
+14192088,AI/Machine Learning
+14191983,Javascript
+14191860,Linux
+14191797,Mobile
+14191506,Startups
+14191500,Python
+14191473,Self-driving car
+14191398,Apple
+14191278,Politics
+14191266,Mobile
+14191257,Design
+14191251,Amazon
+14191089,Mobile
+14191089,AI/Machine Learning
+14191089,Google
+14191053,Startups
+14190990,Google
+14190453,Startups
+14190438,Mobile
+14190387,Amazon
+14190273,Databases
+14190267,Self-driving car
+14190267,Linux
+14190147,Python
+14190108,Microsoft
+14190054,Google
+14189691,Microsoft
+14189547,Databases
+14189463,Google
+14189352,Startups
+14189232,Javascript
+14189058,Google
+14188416,Design
+14188023,Python
+14187816,Linux
+14187783,Security
+14187768,Politics
+14187522,Startups
+14187504,Politics
+14187414,AI/Machine Learning
+14186874,Politics
+14186844,Javascript
+14186817,Apple
+14186721,Google
+14186715,Security
+14186709,Politics
+14186436,Amazon
+14186427,Python
+14186427,AI/Machine Learning
+14186391,AI/Machine Learning
+14186265,Tesla
+14186100,Security
+14185965,Javascript
+14185905,Apple
+14185803,AI/Machine Learning
+14185728,Security
+14185605,Design
+14185596,Startups
+14185545,Google
+14185530,Amazon
+14185431,Apple
+14185365,Javascript
+14185353,Security
+14185323,Javascript
+14185167,Mobile
+14185167,Google
+14185068,Google
+14185056,Javascript
+14185005,Facebook
+14184960,Apple
+14184912,Politics
+14184507,Startups
+14184498,Mobile
+14184474,Python
+14184432,Javascript
+14184429,Google
+14184417,Design
+14184366,Mobile
+14184312,Facebook
+14184252,Java
+14184150,Startups
+14184087,Javascript
+14183991,Linux
+14183844,Design
+14183844,Google
+14183757,Google
+14183727,Mobile
+14183727,Apple
+14183700,Databases
+14183646,Politics
+14183442,Security
+14183409,Tesla
+14183361,Databases
+14183328,Google
+14183280,Design
+14183151,Python
+14183145,System Administration/Dev Ops
+14183124,Security
+14183121,System Administration/Dev Ops
+14183043,Python
+14182953,AI/Machine Learning
+14182911,Self-driving car
 14332581,Security
-14332422,Data Science
 14332380,Javascript
 14332380,Security
 14332311,Javascript
@@ -1609,7 +2606,6 @@ id,topic
 14331513,Security
 14331429,Databases
 14331327,Startups
-14331315,Data Science
 14331279,Mobile
 14331237,Apple
 14331192,Facebook
@@ -1637,13 +2633,11 @@ id,topic
 14330034,Security
 14329962,Politics
 14329956,Javascript
-14329953,Data Science
 14329914,Security
 14329914,Microsoft
 14329911,Mobile
 14329818,Mobile
 14329668,AI/Machine Learning
-14329653,Data Science
 14329575,Mobile
 14329491,Security
 14329440,Javascript
@@ -1734,7 +2728,6 @@ id,topic
 14323233,Mobile
 14323119,Startups
 14323113,Python
-14323113,Data Science
 14323059,Apple
 14322975,Security
 14322975,Linux
@@ -1752,7 +2745,6 @@ id,topic
 14322201,Politics
 14322093,Databases
 14322072,Mobile
-14322018,Data Science
 14321817,Politics
 14321688,Google
 14321397,Microsoft
@@ -1796,7 +2788,6 @@ id,topic
 14318313,Databases
 14318250,Databases
 14318241,Security
-14318199,Data Science
 14317977,Security
 14317971,Blockchain
 14317770,Microsoft
@@ -1805,10 +2796,8 @@ id,topic
 14317482,Microsoft
 14317437,Design
 14317332,Microsoft
-14317212,Data Science
 14317182,Facebook
 14317050,Java
-14316864,Data Science
 14316831,Python
 14316822,Javascript
 14316807,Design
@@ -1830,14 +2819,12 @@ id,topic
 14315625,Startups
 14315619,Mobile
 14315598,Javascript
-14315598,Data Science
 14315583,Design
 14315520,Java
 14315502,Security
 14315397,Blockchain
 14315352,Databases
 14315307,Startups
-14315277,Data Science
 14315235,Google
 14315232,Mobile
 14315202,Python
@@ -1878,7 +2865,6 @@ id,topic
 14312814,Microsoft
 14312787,Microsoft
 14312730,Google
-14312454,Data Science
 14312454,Tesla
 14312379,Politics
 14312292,Databases
@@ -1946,7 +2932,6 @@ id,topic
 14308557,Databases
 14308518,Javascript
 14308485,Python
-14308230,Data Science
 14308218,AI/Machine Learning
 14307984,Self-driving car
 14307948,Javascript
@@ -1972,7 +2957,6 @@ id,topic
 14306937,Linux
 14306784,Politics
 14306748,Apple
-14306406,Data Science
 14306391,Javascript
 14306370,Javascript
 14306337,Startups
@@ -2020,7 +3004,6 @@ id,topic
 14302302,Javascript
 14302254,Mobile
 14302053,Blockchain
-14301924,Data Science
 14301744,Startups
 14301714,Mobile
 14301630,Javascript
@@ -2075,13 +3058,11 @@ id,topic
 14298723,Mobile
 14298666,Python
 14298660,Microsoft
-14298642,Data Science
 14298633,Mobile
 14298579,Python
 14298480,Javascript
 14298432,Politics
 14298429,Amazon
-14298414,Data Science
 14298411,Mobile
 14298393,Amazon
 14298354,Politics
@@ -2101,7 +3082,6 @@ id,topic
 14297694,AI/Machine Learning
 14297523,Databases
 14297391,Blockchain
-14297346,Data Science
 14297337,Startups
 14297157,Facebook
 14297148,Facebook
@@ -2210,7 +3190,6 @@ id,topic
 14289828,Linux
 14289804,Python
 14289774,Politics
-14289759,Data Science
 14289687,Politics
 14289675,Databases
 14289636,Design
@@ -2238,7 +3217,6 @@ id,topic
 14285880,Python
 14285757,Facebook
 14285751,Javascript
-14285607,Data Science
 14285601,Google
 14285478,Design
 14285211,System Administration/Dev Ops
@@ -2263,11 +3241,9 @@ id,topic
 14283264,Databases
 14283195,Javascript
 14283156,Microsoft
-14283096,Data Science
 14282904,AI/Machine Learning
 14282904,Google
 14282595,Linux
-14282370,Data Science
 14281833,Facebook
 14281635,Amazon
 14281149,Design
@@ -2275,7 +3251,6 @@ id,topic
 14280600,Security
 14280549,Mobile
 14280483,Python
-14280483,Data Science
 14280174,Databases
 14280099,Linux
 14280084,Security
@@ -2312,7 +3287,6 @@ id,topic
 14275626,Politics
 14275608,Mobile
 14275593,Politics
-14275440,Data Science
 14275392,Mobile
 14275185,Mobile
 14274783,Apple
@@ -2334,12 +3308,10 @@ id,topic
 14273352,Databases
 14273292,Google
 14273184,Python
-14273076,Data Science
 14272998,Self-driving car
 14272878,Mobile
 14272809,Javascript
 14272752,Google
-14272488,Data Science
 14272434,Self-driving car
 14272395,Mobile
 14272194,Startups
@@ -2349,17 +3321,14 @@ id,topic
 14271945,Javascript
 14271918,Politics
 14271822,Mobile
-14271819,Data Science
 14271804,Blockchain
 14271744,Linux
 14271486,Javascript
 14271372,Microsoft
 14271294,Mobile
 14271219,Startups
-14271108,Data Science
 14270961,Politics
 14270682,Python
-14270454,Data Science
 14270337,Linux
 14270322,Design
 14270307,Amazon
@@ -2400,7 +3369,6 @@ id,topic
 14274938,Databases
 14274635,Startups
 14274626,Javascript
-14274575,Data Science
 14274356,Python
 14274278,Politics
 14274260,Python
@@ -2417,10 +3385,8 @@ id,topic
 14273252,Databases
 14273234,Design
 14273078,Apple
-14272910,Data Science
 14272865,AI/Machine Learning
 14272841,Apple
-14272835,Data Science
 14272832,Microsoft
 14272679,Design
 14272535,Microsoft
@@ -2436,7 +3402,6 @@ id,topic
 14271833,AI/Machine Learning
 14271800,Politics
 14271728,Mobile
-14271641,Data Science
 14271614,Python
 14271533,Politics
 14271512,Mobile
@@ -2559,7 +3524,6 @@ id,topic
 14262512,AI/Machine Learning
 14262494,Security
 14262494,Google
-14262458,Data Science
 14262392,Javascript
 14262353,Security
 14262353,AI/Machine Learning
@@ -2636,7 +3600,6 @@ id,topic
 14257493,Politics
 14257124,Databases
 14257082,Design
-14256995,Data Science
 14256971,Security
 14256971,Blockchain
 14256971,Databases
@@ -2665,12 +3628,10 @@ id,topic
 14255540,Javascript
 14255498,Apple
 14255459,Startups
-14255384,Data Science
 14255366,Google
 14255303,Microsoft
 14255249,Mobile
 14255213,AI/Machine Learning
-14255213,Data Science
 14255081,Java
 14255033,Politics
 14254961,Databases
@@ -2759,11 +3720,9 @@ id,topic
 14247539,Mobile
 14247515,Microsoft
 14247383,AI/Machine Learning
-14247383,Data Science
 14247242,Security
 14247242,Microsoft
 14247221,Facebook
-14247167,Data Science
 14246999,Google
 14246984,Microsoft
 14246948,Microsoft
@@ -2823,7 +3782,6 @@ id,topic
 14243144,Mobile
 14243087,Javascript
 14243033,Security
-14243033,Data Science
 14242991,Security
 14242949,Javascript
 14242442,Security
@@ -2837,6 +3795,462 @@ id,topic
 14240666,Politics
 14240306,AI/Machine Learning
 14240306,Startups
+14240141,Startups
+14240138,Security
+14240111,Databases
+14239850,Security
+14239832,Javascript
+14239832,Design
+14239733,Facebook
+14239718,Security
+14239541,Linux
+14239535,Politics
+14239382,Blockchain
+14239376,Java
+14239376,Design
+14239226,Databases
+14238971,Javascript
+14238788,Design
+14238728,Startups
+14238221,System Administration/Dev Ops
+14238047,Java
+14237759,Facebook
+14237582,Google
+14237225,Mobile
+14237189,Mobile
+14237189,Amazon
+14237183,Blockchain
+14237123,Linux
+14237048,Mobile
+14237030,AI/Machine Learning
+14237030,Linux
+14237003,Python
+14236712,Blockchain
+14236667,Politics
+14236634,Design
+14236568,System Administration/Dev Ops
+14236556,Javascript
+14236475,Security
+14236469,Facebook
+14236364,AI/Machine Learning
+14236070,Security
+14235974,Microsoft
+14235803,Python
+14235632,Javascript
+14235623,Javascript
+14235416,Javascript
+14235179,Politics
+14234903,Blockchain
+14234852,Mobile
+14234822,Tesla
+14234681,Linux
+14234606,Javascript
+14234585,Facebook
+14234543,Linux
+14234534,AI/Machine Learning
+14234255,Python
+14234156,Design
+14234054,Amazon
+14233796,AI/Machine Learning
+14233670,AI/Machine Learning
+14233562,Amazon
+14233442,Startups
+14233370,AI/Machine Learning
+14233283,AI/Machine Learning
+14233187,Google
+14233052,Startups
+14232572,Politics
+14232563,Apple
+14232512,Apple
+14232503,Blockchain
+14232332,Javascript
+14232233,Security
+14232233,Microsoft
+14232176,Politics
+14231819,Blockchain
+14231753,Javascript
+14231735,AI/Machine Learning
+14231702,Design
+14231624,Google
+14231486,Javascript
+14231396,Facebook
+14231267,System Administration/Dev Ops
+14231186,Mobile
+14231186,Microsoft
+14231087,Databases
+14231078,Microsoft
+14230898,Mobile
+14230898,Apple
+14230892,Apple
+14230868,Security
+14230868,Google
+14230649,AI/Machine Learning
+14230187,Design
+14229968,Javascript
+14229827,Microsoft
+14229761,Facebook
+14229686,AI/Machine Learning
+14229644,Startups
+14228744,Javascript
+14228675,Javascript
+14228519,Google
+14228516,Blockchain
+14227937,Linux
+14227877,Politics
+14227829,Startups
+14227547,Blockchain
+14227328,Startups
+14227217,Mobile
+14227145,Microsoft
+14227085,Design
+14226998,Facebook
+14226998,Politics
+14226986,Google
+14226941,Security
+14226755,AI/Machine Learning
+14226539,Mobile
+14226503,Javascript
+14226476,Politics
+14226446,Mobile
+14226395,Apple
+14226335,Google
+14226329,Politics
+14226272,Security
+14226272,AI/Machine Learning
+14226254,Microsoft
+14226227,Design
+14226164,Blockchain
+14225900,Google
+14225618,Security
+14225585,Mobile
+14225501,Startups
+14225414,Startups
+14225219,Google
+14225015,Tesla
+14224949,Politics
+14224910,Facebook
+14224874,Google
+14224832,Politics
+14224799,Politics
+14224781,Politics
+14224736,Blockchain
+14224721,Javascript
+14224367,Amazon
+14223917,Startups
+14223761,Security
+14223290,AI/Machine Learning
+14223185,Google
+14223128,Politics
+14222741,Startups
+14222681,Politics
+14222678,AI/Machine Learning
+14222372,Apple
+14222264,Security
+14222141,Google
+14222141,Facebook
+14222075,Microsoft
+14222075,Amazon
+14221991,Javascript
+14221628,Google
+14221562,Blockchain
+14221373,Google
+14221373,Facebook
+14221127,Politics
+14220995,Tesla
+14220668,Python
+14220581,Databases
+14220485,Google
+14220329,Google
+14220329,Apple
+14220329,Startups
+14220254,Microsoft
+14220065,Apple
+14219945,Startups
+14219936,System Administration/Dev Ops
+14219918,Amazon
+14219819,Google
+14219762,AI/Machine Learning
+14219729,Politics
+14219669,Google
+14219591,Mobile
+14219567,Facebook
+14219567,Politics
+14219558,Startups
+14219558,Self-driving car
+14219477,Mobile
+14219459,Facebook
+14219360,Amazon
+14219240,Startups
+14219207,Amazon
+14219039,Blockchain
+14219003,Mobile
+14218955,Javascript
+14218838,Apple
+14218838,Self-driving car
+14218730,Amazon
+14218382,Mobile
+14218382,Design
+14218286,Mobile
+14218211,Tesla
+14218169,Linux
+14218115,Python
+14218112,Politics
+14218001,Linux
+14217971,Linux
+14217941,Self-driving car
+14217908,Startups
+14217908,Politics
+14217779,Google
+14217680,Mobile
+14217659,Linux
+14217650,Python
+14217650,Design
+14217560,Google
+14217458,Mobile
+14217362,Politics
+14217329,Javascript
+14217290,Google
+14217188,Microsoft
+14217176,Politics
+14217173,Mobile
+14217149,Blockchain
+14217140,Python
+14217140,AI/Machine Learning
+14217140,Self-driving car
+14216816,Security
+14216669,Microsoft
+14216624,Google
+14216621,Amazon
+14216552,Google
+14216552,Politics
+14216342,Facebook
+14215913,Blockchain
+14215820,Mobile
+14215700,AI/Machine Learning
+14215646,Google
+14215517,Javascript
+14215334,Apple
+14215208,Microsoft
+14214887,Startups
+14214872,Javascript
+14214644,Google
+14214644,Self-driving car
+14214593,Python
+14214494,Self-driving car
+14214239,Javascript
+14214203,Blockchain
+14214191,Javascript
+14214134,Security
+14214071,Politics
+14214011,Politics
+14213984,Javascript
+14213966,Facebook
+14213945,Security
+14213912,Politics
+14213909,Google
+14213900,Startups
+14213819,Design
+14213777,Google
+14213744,Politics
+14213687,Python
+14213687,Databases
+14213552,Security
+14213540,Python
+14213534,Javascript
+14213498,Databases
+14213303,Google
+14213273,Mobile
+14213045,Linux
+14213033,Self-driving car
+14212967,Databases
+14212796,Security
+14212787,Linux
+14212730,Mobile
+14212499,Startups
+14212331,Databases
+14212256,Apple
+14212235,Amazon
+14212211,Databases
+14212097,Design
+14212064,Python
+14212064,Microsoft
+14212064,Databases
+14211896,Javascript
+14211887,Mobile
+14211878,Microsoft
+14211875,Blockchain
+14211731,Mobile
+14211731,Apple
+14211725,Mobile
+14211668,Facebook
+14211641,Python
+14211524,Politics
+14211479,Linux
+14211461,Security
+14211401,Mobile
+14211359,Google
+14211287,Security
+14211251,Startups
+14211218,Startups
+14211179,Startups
+14211149,Google
+14211122,Security
+14211080,Python
+14211080,Linux
+14211074,Mobile
+14210978,Mobile
+14210978,AI/Machine Learning
+14210900,Startups
+14210888,Politics
+14210804,Mobile
+14210165,Apple
+14210150,Python
+14210150,Design
+14210111,Amazon
+14209784,Databases
+14209763,Security
+14209754,Mobile
+14209694,Google
+14209682,Security
+14209541,Google
+14209505,Facebook
+14209499,Politics
+14209481,Mobile
+14209391,Facebook
+14209373,Google
+14209364,Amazon
+14209274,Amazon
+14209268,Apple
+14209130,Databases
+14209112,AI/Machine Learning
+14209079,Python
+14208827,AI/Machine Learning
+14208827,Facebook
+14208752,Mobile
+14208668,Facebook
+14208566,Politics
+14208326,Security
+14208227,Google
+14208095,Security
+14207942,Politics
+14207765,AI/Machine Learning
+14207672,Microsoft
+14207564,Politics
+14207393,AI/Machine Learning
+14207363,AI/Machine Learning
+14207285,Security
+14207177,Amazon
+14207042,Python
+14206946,Design
+14206844,Politics
+14206739,Google
+14206562,Python
+14206487,Amazon
+14206331,Startups
+14206322,Politics
+14206118,Google
+14206037,Politics
+14205917,Politics
+14205794,Design
+14205776,Politics
+14205731,Microsoft
+14205485,Blockchain
+14205485,Startups
+14205473,Design
+14205380,Politics
+14204882,Mobile
+14204762,Design
+14204633,AI/Machine Learning
+14204552,Blockchain
+14204531,Security
+14204342,Design
+14204288,Amazon
+14204255,Amazon
+14204246,Amazon
+14204174,Google
+14204150,Politics
+14204078,Javascript
+14203919,Linux
+14203832,Startups
+14203703,Apple
+14203700,Facebook
+14203640,Politics
+14203541,Google
+14203466,Startups
+14203364,Mobile
+14203358,Databases
+14203346,Mobile
+14203346,Design
+14203247,Mobile
+14203247,Facebook
+14203082,Javascript
+14203079,Startups
+14202956,Politics
+14202815,Design
+14202761,Mobile
+14202743,Tesla
+14202686,Mobile
+14202620,Mobile
+14202617,Mobile
+14202599,Tesla
+14202488,Javascript
+14202461,Google
+14202365,Microsoft
+14202347,Google
+14202338,Linux
+14202110,AI/Machine Learning
+14202110,Amazon
+14202089,Microsoft
+14201972,Design
+14201972,Apple
+14201861,AI/Machine Learning
+14201843,Javascript
+14201834,Blockchain
+14201804,Google
+14201777,Politics
+14201747,Mobile
+14201717,Javascript
+14201705,Microsoft
+14201699,Databases
+14201657,Javascript
+14201630,Javascript
+14201471,Mobile
+14201447,Databases
+14201279,Self-driving car
+14201276,Politics
+14201237,Politics
+14201150,Mobile
+14201114,Microsoft
+14201078,Mobile
+14201060,Microsoft
+14201021,Mobile
+14201012,Politics
+14200925,Security
+14200901,Microsoft
+14200835,System Administration/Dev Ops
+14200826,Mobile
+14200685,Blockchain
+14200652,Javascript
+14200568,Politics
+14200568,Linux
+14200436,Politics
+14200385,Politics
+14200352,Google
+14200280,Google
+14200124,Javascript
+14200058,Javascript
+14199758,Politics
+14199341,Self-driving car
+14199125,Linux
+14199032,Facebook
+14198606,Design
+14198606,Google
+14198516,Politics
+14198492,Linux
+14198471,Mobile
+14198471,Microsoft
+14198066,Mobile
+14197943,Startups
 14332577,Google
 14332397,Blockchain
 14332199,AI/Machine Learning
@@ -2869,7 +4283,6 @@ id,topic
 14329460,Javascript
 14329385,Microsoft
 14329385,Linux
-14329367,Data Science
 14329172,Security
 14329172,Microsoft
 14329037,Python
@@ -2983,7 +4396,6 @@ id,topic
 14320007,Python
 14319980,Mobile
 14319944,Startups
-14319770,Data Science
 14319752,Javascript
 14319623,Google
 14319560,Mobile
@@ -3062,11 +4474,8 @@ id,topic
 14315186,Linux
 14315177,Security
 14315114,Java
-14315072,Data Science
 14315015,Design
-14314931,Data Science
 14314823,Microsoft
-14314814,Data Science
 14314766,Mobile
 14314703,Databases
 14314436,Javascript
@@ -3078,14 +4487,12 @@ id,topic
 14314130,Google
 14314022,Tesla
 14313986,Politics
-14313782,Data Science
 14313713,Microsoft
 14313710,AI/Machine Learning
 14313704,Microsoft
 14313605,AI/Machine Learning
 14313596,Amazon
 14313353,Google
-14313287,Data Science
 14313137,Mobile
 14313122,Microsoft
 14313092,Politics
@@ -3096,7 +4503,6 @@ id,topic
 14312495,Google
 14312495,Amazon
 14312210,Politics
-14312045,Data Science
 14311988,Javascript
 14311967,Google
 14311742,Startups
@@ -3110,7 +4516,6 @@ id,topic
 14310878,Tesla
 14310677,Blockchain
 14310647,Politics
-14310575,Data Science
 14310542,Javascript
 14310521,Tesla
 14310515,Startups
@@ -3145,7 +4550,6 @@ id,topic
 14309258,Design
 14309243,AI/Machine Learning
 14309156,Facebook
-14309018,Data Science
 14309015,Microsoft
 14309015,Databases
 14308886,Mobile
@@ -3155,7 +4559,6 @@ id,topic
 14308787,Databases
 14308754,Microsoft
 14308556,Amazon
-14308376,Data Science
 14308370,Mobile
 14308310,Design
 14308298,Blockchain
@@ -3175,7 +4578,6 @@ id,topic
 14307455,Linux
 14307341,Mobile
 14307296,Apple
-14307272,Data Science
 14307272,Databases
 14307257,Mobile
 14307251,Mobile
@@ -3185,27 +4587,22 @@ id,topic
 14307026,Java
 14306984,Politics
 14306966,Design
-14306942,Data Science
 14306942,System Administration/Dev Ops
 14306912,Tesla
 14306864,Google
 14306837,Security
 14306837,Politics
-14306762,Data Science
 14306735,Mobile
 14306513,Databases
-14306504,Data Science
 14306462,Mobile
 14306462,Google
 14306318,Microsoft
-14306165,Data Science
 14306135,Politics
 14306051,Design
 14306027,Apple
 14306027,Startups
 14305868,Mobile
 14305868,Google
-14305775,Data Science
 14305727,Politics
 14305613,Politics
 14305541,Javascript
@@ -3270,7 +4667,6 @@ id,topic
 14299949,Politics
 14299916,Amazon
 14299895,Amazon
-14299805,Data Science
 14299730,Politics
 14299709,Amazon
 14299463,Microsoft
@@ -3283,7 +4679,6 @@ id,topic
 14298863,Mobile
 14298827,Apple
 14298752,System Administration/Dev Ops
-14298749,Data Science
 14298704,Javascript
 14298548,Design
 14298506,Mobile
@@ -3291,9 +4686,7 @@ id,topic
 14298359,Java
 14298221,Politics
 14298215,AI/Machine Learning
-14298212,Data Science
 14298200,Politics
-14298194,Data Science
 14297963,Python
 14297927,Startups
 14297888,Google
@@ -3338,7 +4731,6 @@ id,topic
 14295977,Javascript
 14295770,Apple
 14295770,Tesla
-14295665,Data Science
 14295650,Databases
 14295545,Apple
 14295545,Tesla
@@ -3386,7 +4778,6 @@ id,topic
 14290943,Java
 14290919,Blockchain
 14290907,Mobile
-14290838,Data Science
 14290691,Mobile
 14290652,AI/Machine Learning
 14290535,Mobile
@@ -3407,7 +4798,6 @@ id,topic
 14288033,Startups
 14288000,Javascript
 14287835,Politics
-14287703,Data Science
 14287598,Linux
 14287307,Databases
 14287295,Design
