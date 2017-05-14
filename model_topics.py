@@ -67,7 +67,6 @@ dictionary = corpora.Dictionary(token_docs)
 dict_fname = makeTimeFilename("hn_dictionary", ".pkl")
 dictionary.save(dict_fname)
 
-
 # Create corpus for topic model training
 corpus = [dictionary.doc2bow(doc) for doc in token_docs]
 

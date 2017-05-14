@@ -48,6 +48,3 @@ class TextTagger(object):
     with open(lr_dict_fname, "rb") as f:
       lr_dict = pickle.load(f)
     return cls(topic_modeler, gensim_dict, lr_dict, *args, **kwargs)
-
-tt2 = TextTagger.init_from_files("model_100topics_10passMay13_2159.gensim", 
-    "hn_dictionaryMay13_2152.pkl", "models/logistic_models.pkl", threshold=0.2)
