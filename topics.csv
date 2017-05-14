@@ -16,3 +16,6 @@ Politics,trump|comey|russian|fbi|snowden|neutrality|white house|government|brexi
 Databases,sql|cockroachdb|mongodb|database|\bdb\b
 Linux,linux|debian|ubuntu|centos
 Web Development,web\b|javascript|\.js|front.?end|back.?end|full.*?stack
+Data Science,data scien|big data|data vi|data ?set|data analy|machine learning|pandas|ggplot2
+Science,bio|drug|researcher|genomic|physics|scienti|spacex|\\bmoon\\b|nasa|\\bastro|\\bmars\\b
+Math,math|geome|cryptograph|algebra|calculus
