@@ -1,0 +1,160 @@
+---
+title: "Hacker News Analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(ggplot2)
+theme_set(theme_minimal())
+```
+
+### Topic supervised set
+
+
+### Analyze story titles
+
+```{r stories}
+library(tidyverse)
+
+stories <- map_df(dir("../scrape_hn/", pattern = "output.*.csv", full.names = TRUE), read_csv) %>%
+  filter(!is.na(title))
+```
+
+```{r story_topics}
+library(fuzzyjoin)
+library(stringr)
+topic_regexes <- read_csv("topics.csv")
+
+story_topics <- stories %>%
+  select(id, title) %>%
+  mutate(title = str_to_lower(title)) %>%
+  regex_inner_join(topic_regexes, by = c(title = "regex"))
+
+story_topics %>%
+  select(-title, -regex) %>%
+  write_csv("../analyze_hn/supervised_topics.csv")
+```
+
+```{r}
+stop <- c(stop_words$word, "hn")
+
+stories %>%
+  unnest_tokens(word, title) %>%
+  filter(!word %in% stop) %>%
+  count(word, sort = TRUE) %>%
+  head(20)
+```
+
+
+### Read in the story text
+
+```{r articles}
+filenames <- dir("../hn_scrape/stories/", full.names = TRUE)
+names(filenames) <- filenames
+
+articles <- filenames %>%
+  map_df(~ data_frame(text = read_lines(.)), .id = "filename") %>%
+  extract(filename, "id", "(\\d+)", convert = TRUE)
+```
+
+```{r}
+
+```
+
+
+```{r article_words, dependson = "articles"}
+library(tidytext)
+library(stringr)
+
+article_words <- articles %>%
+  unnest_tokens(word, text) %>%
+  filter(!word %in% stop_words$word,
+         str_detect(word, "[^\\d]"))
+```
+
+```{r article_word_cors}
+library(widyr)
+
+article_word_cors <- article_words %>%
+  distinct(id, word) %>%
+  add_count(word) %>%
+  filter(n >= 40) %>%
+  pairwise_cor(word, id, sort = TRUE)
+```
+
+```{r}
+library(igraph)
+library(ggraph)
+
+set.seed(2017)
+
+article_word_cors %>%
+  filter(correlation > .35) %>%
+  graph_from_data_frame() %>%
+  ggraph() +
+  geom_edge_link(aes(edge_alpha = correlation)) +
+  geom_node_point() +
+  geom_node_text(aes(label = name), vjust = 1, hjust = 1) +
+  theme_void()
+```
+
+
+
+
+```{r}
+article_words %>%
+  count(word, sort = TRUE) %>%
+  head(20) %>%
+  mutate(word = reorder(word, n)) %>%
+  ggplot(aes(word, n)) +
+  geom_col() +
+  coord_flip()
+```
+
+```{r}
+library(tidytext)
+library(stringr)
+library(widyr)
+library(rvest)
+
+strip_html <- function(s) {
+    html_text(read_html(s))
+}
+
+comment_words <- posts %>%
+  filter(type == "comment") %>%
+  mutate(text = map_chr(paste0("<p/>", text), strip_html)) %>%
+  unnest_tokens(word, text) %>%
+  filter(!word %in% stop_words$word)
+```
+
+```{r}
+library(topicmodels)
+library(Matrix)
+
+article_dtm <- article_words %>%
+  add_count(word) %>%
+  filter(n >= 75) %>%
+  count(id, word) %>%
+  cast_dtm(id, word, nn)
+
+topic_model <- LDA(comment_dtm, k = 25, control = list(seed = 11))
+```
+
+```{r}
+library(drlib)
+
+tidy(topic_model) %>%
+  group_by(topic) %>%
+  top_n(10, beta) %>%
+  ungroup() %>%
+  mutate(term = reorder_within(term, beta, topic)) %>%
+  ggplot(aes(term, beta, fill = factor(topic))) +
+  geom_col(show.legend = FALSE) +
+  coord_flip() +
+  scale_x_reordered() +
+  facet_wrap(~ topic, scales = "free")
+```
+
