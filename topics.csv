@@ -1,22 +1,22 @@
 topic,regex
 Python,python|pandas
-Javascript,javascript|jquery|d3|angular|react|\\.js
+Javascript,javascript|jquery|d3|angular|react|\.js
 Java,java[^s]
 Mobile,mobile|android|iphone|phone
 Design,design
 Security,security|worm|ransomware|attack|virus|patch|infosec
 Blockchain,blockchain|bitcoin|etherium
-AI/Machine Learning,\\bai\\b|artificial intelligence|machine learning|deep learning|tensorflow
-Data Science,data scien|visuali|ggplot2|analysis|analyze
-System Administration/Dev Ops,sys.*admin|dev.*ops|site reliability|downtime
+AI/Machine Learning,\bai\b|artificial intelligence|machine learning|deep learning|tensorflow|machine intelligence
+System Administration,sys.*admin|dev.*ops|site reliability|downtime
 Google,google
 Microsoft,microsoft|windows|visual studio
-Apple,apple|mac\\b|os ?x
+Apple,apple|mac\b|os ?x
 Facebook,facebook
 Amazon,amazon
 Tesla,tesla
-Startups,startup|\\bvc\\b
+Startups,startup|\bvc\b
 Politics,trump|comey|russian|fbi|snowden|neutrality|white house|government|brexit|nsa
 Self-driving car,self.*driving|waymo
-Databases,sql|cockroachdb|mongodb|database|\\bdb\\b
+Databases,sql|cockroachdb|mongodb|database|\bdb\b
 Linux,linux|debian|ubuntu|centos
+Web Development,web\b|javascript|\.js|front.?end|back.?end|full.*?stack
