@@ -23,7 +23,6 @@ id,topic
 14274184,Mobile
 14274175,Mobile
 14274121,Apple
-14274121,Tesla
 14274037,Javascript
 14274037,Web Development
 14273995,Web Development
@@ -36,7 +35,6 @@ id,topic
 14273578,Mobile
 14273503,Javascript
 14273383,Startups
-14273353,System Administration
 14273287,Design
 14273107,Amazon
 14272957,Javascript
@@ -50,9 +48,7 @@ id,topic
 14272492,Microsoft
 14272459,AI/Machine Learning
 14272369,Mobile
-14272339,System Administration
 14272282,Mobile
-14272258,System Administration
 14272183,Politics
 14272021,Mobile
 14272018,Mobile
@@ -79,7 +75,6 @@ id,topic
 14269924,AI/Machine Learning
 14269846,Google
 14269615,Mobile
-14269396,Self-driving car
 14269360,Facebook
 14269327,Google
 14269294,Apple
@@ -105,7 +100,6 @@ id,topic
 14267341,Web Development
 14267089,Google
 14267089,Startups
-14267068,Tesla
 14267026,Amazon
 14266960,AI/Machine Learning
 14266930,Design
@@ -156,7 +150,6 @@ id,topic
 14264668,Mobile
 14264647,Security
 14264497,AI/Machine Learning
-14264497,Self-driving car
 14264470,Amazon
 14264440,Google
 14264341,Startups
@@ -166,9 +159,7 @@ id,topic
 14264185,Python
 14264077,Javascript
 14264077,Web Development
-14264038,Tesla
 14263954,Politics
-14263906,Self-driving car
 14263834,Databases
 14263768,Facebook
 14263738,Mobile
@@ -211,7 +202,6 @@ id,topic
 14261314,Facebook
 14261302,Apple
 14261299,Politics
-14261290,Self-driving car
 14261275,Google
 14261254,Apple
 14261224,Javascript
@@ -229,9 +219,7 @@ id,topic
 14260396,Python
 14260384,Microsoft
 14260030,Google
-14260030,Self-driving car
 14260021,Facebook
-14259769,Tesla
 14259700,Google
 14259682,Security
 14259652,Apple
@@ -260,7 +248,6 @@ id,topic
 14258464,Microsoft
 14258383,Google
 14258356,Security
-14258314,Java
 14258314,Mobile
 14258299,Amazon
 14258248,Mobile
@@ -313,13 +300,11 @@ id,topic
 14255395,Mobile
 14255203,Python
 14255200,Design
-14255128,Java
 14255119,AI/Machine Learning
 14255098,Mobile
 14254969,Javascript
 14254963,Design
 14254924,Databases
-14254849,Java
 14254789,Javascript
 14254789,Web Development
 14254750,Design
@@ -336,7 +321,6 @@ id,topic
 14254072,Web Development
 14254027,Facebook
 14253994,Mobile
-14253985,Self-driving car
 14253871,Mobile
 14253871,Apple
 14253808,Startups
@@ -359,15 +343,12 @@ id,topic
 14252896,Web Development
 14252863,Javascript
 14252863,Web Development
-14252404,Tesla
 14251918,Python
 14251804,Microsoft
 14251804,Apple
-14251780,Tesla
 14250910,Facebook
 14250814,Security
 14250637,Microsoft
-14250538,System Administration
 14250463,Design
 14250421,Apple
 14250331,AI/Machine Learning
@@ -387,8 +368,6 @@ id,topic
 14249152,Javascript
 14249152,Web Development
 14249134,Google
-14248861,Java
-14248822,Self-driving car
 14248720,Startups
 14248699,Design
 14248531,Apple
@@ -396,7 +375,6 @@ id,topic
 14248282,Design
 14248030,Mobile
 14247985,Security
-14247829,Self-driving car
 14247754,Startups
 14247634,Amazon
 14247598,Apple
@@ -414,7 +392,6 @@ id,topic
 14246698,AI/Machine Learning
 14246674,Politics
 14246611,Mobile
-14246407,Self-driving car
 14246371,Microsoft
 14246365,Startups
 14246173,Mobile
@@ -428,8 +405,6 @@ id,topic
 14245993,Startups
 14245972,AI/Machine Learning
 14245960,Security
-14245909,Java
-14245909,System Administration
 14245909,Web Development
 14245885,Databases
 14245855,Databases
@@ -470,7 +445,6 @@ id,topic
 14243755,Mobile
 14243755,Facebook
 14243689,Security
-14243623,System Administration
 14243548,Mobile
 14243341,Linux
 14243221,Startups
@@ -507,7 +481,6 @@ id,topic
 14239117,Google
 14238877,Startups
 14238796,Google
-14238676,System Administration
 14238607,Python
 14238370,Databases
 14238226,Google
@@ -538,7 +511,6 @@ id,topic
 14236360,Facebook
 14236348,Microsoft
 14236321,Google
-14236252,System Administration
 14236240,Facebook
 14236159,Apple
 14236069,Mobile
@@ -548,7 +520,6 @@ id,topic
 14235955,Mobile
 14235898,Apple
 14235517,Amazon
-14235442,Tesla
 14235355,Facebook
 14235340,Linux
 14235280,Web Development
@@ -562,12 +533,9 @@ id,topic
 14234593,Design
 14234356,Politics
 14234356,Linux
-14234107,System Administration
-14234068,System Administration
 14233951,Facebook
 14233765,Politics
 14233645,Security
-14233543,Tesla
 14233423,Google
 14233225,Security
 14233210,Microsoft
@@ -576,7 +544,6 @@ id,topic
 14232670,Apple
 14232571,Javascript
 14232571,Web Development
-14232418,Java
 14232364,Startups
 14232136,Design
 14231986,Mobile
@@ -608,7 +575,6 @@ id,topic
 14228746,Web Development
 14228620,AI/Machine Learning
 14228371,Politics
-14228314,Self-driving car
 14228197,Mobile
 14228128,AI/Machine Learning
 14227876,Security
@@ -651,7 +617,6 @@ id,topic
 14225236,Mobile
 14225236,Web Development
 14225011,Startups
-14224984,Java
 14224900,Google
 14224900,Startups
 14224714,Databases
@@ -672,7 +637,6 @@ id,topic
 14223007,Design
 14222998,AI/Machine Learning
 14222923,Javascript
-14222923,Self-driving car
 14222734,Javascript
 14222734,Web Development
 14222716,Javascript
@@ -680,9 +644,7 @@ id,topic
 14222557,Politics
 14222485,AI/Machine Learning
 14222473,Google
-14222473,Self-driving car
 14222299,Politics
-14222251,Tesla
 14222194,Mobile
 14222167,Politics
 14221786,Security
@@ -699,7 +661,6 @@ id,topic
 14220850,Web Development
 14220820,Databases
 14220631,Javascript
-14220631,Java
 14220631,Web Development
 14220577,Google
 14220577,Facebook
@@ -722,7 +683,6 @@ id,topic
 14219527,Design
 14219527,Web Development
 14219494,Facebook
-14219485,System Administration
 14219416,Python
 14219359,Politics
 14219320,Databases
@@ -736,7 +696,6 @@ id,topic
 14219011,Databases
 14218999,Javascript
 14218999,Web Development
-14218843,Self-driving car
 14218834,Google
 14218801,Security
 14218795,Mobile
@@ -772,7 +731,6 @@ id,topic
 14217160,Politics
 14216893,Mobile
 14216563,Apple
-14216563,Self-driving car
 14216557,Startups
 14216374,Linux
 14216329,Security
@@ -790,7 +748,6 @@ id,topic
 14215393,Google
 14215294,Startups
 14215132,Apple
-14215009,Self-driving car
 14214751,AI/Machine Learning
 14214700,Google
 14214694,Amazon
@@ -802,14 +759,11 @@ id,topic
 14214049,Apple
 14213911,Politics
 14213911,Databases
-14213905,Self-driving car
-14213809,Self-driving car
 14213779,Google
 14213707,Security
 14213659,Apple
 14213638,Google
 14213638,Amazon
-14213611,Tesla
 14213608,Security
 14213362,Mobile
 14213362,AI/Machine Learning
@@ -883,7 +837,6 @@ id,topic
 14208892,AI/Machine Learning
 14208874,Politics
 14208754,Mobile
-14208751,Java
 14208385,Blockchain
 14208304,Startups
 14208298,Mobile
@@ -918,15 +871,12 @@ id,topic
 14206189,AI/Machine Learning
 14206057,Politics
 14205997,Politics
-14205940,Self-driving car
 14205742,Microsoft
-14205715,Self-driving car
 14205697,Politics
 14205682,Design
 14205472,Design
 14205445,Politics
 14205307,Javascript
-14205307,Java
 14205307,Web Development
 14205214,Google
 14205145,Security
@@ -958,7 +908,6 @@ id,topic
 14203678,AI/Machine Learning
 14203666,Security
 14203657,Apple
-14203633,Self-driving car
 14203594,Amazon
 14203462,Security
 14203393,Web Development
@@ -971,7 +920,6 @@ id,topic
 14202682,Web Development
 14202658,Politics
 14202607,Mobile
-14202607,System Administration
 14202592,Web Development
 14202340,Javascript
 14202340,Mobile
@@ -1005,13 +953,11 @@ id,topic
 14201374,Google
 14201374,Microsoft
 14201302,AI/Machine Learning
-14201149,Tesla
 14201119,Amazon
 14201080,Design
 14201068,Amazon
 14201035,Facebook
 14200987,Politics
-14200978,System Administration
 14200849,Mobile
 14200840,Startups
 14200822,Google
@@ -1023,7 +969,6 @@ id,topic
 14200708,Web Development
 14200381,AI/Machine Learning
 14200240,Apple
-14200240,Self-driving car
 14200222,Apple
 14200147,Mobile
 14199973,Javascript
@@ -1053,7 +998,6 @@ id,topic
 14196724,Amazon
 14196637,Security
 14196601,Linux
-14196553,System Administration
 14196538,Design
 14196538,Politics
 14196538,Web Development
@@ -1082,7 +1026,6 @@ id,topic
 14195221,Web Development
 14195146,Javascript
 14194717,Javascript
-14194714,Tesla
 14194570,Databases
 14194237,AI/Machine Learning
 14194219,AI/Machine Learning
@@ -1114,7 +1057,6 @@ id,topic
 14193037,Web Development
 14193016,Databases
 14193013,Web Development
-14192785,Java
 14192785,Web Development
 14192713,Design
 14192677,Mobile
@@ -1159,8 +1101,6 @@ id,topic
 14189887,Google
 14189605,Web Development
 14189566,Design
-14189197,Java
-14188969,System Administration
 14188750,Web Development
 14188729,Python
 14188267,Linux
@@ -1197,7 +1137,6 @@ id,topic
 14185564,Javascript
 14185564,Mobile
 14185564,Web Development
-14185531,Java
 14185432,Politics
 14185426,Javascript
 14185426,Web Development
@@ -1221,7 +1160,6 @@ id,topic
 14184361,Google
 14184241,Databases
 14184232,Politics
-14184097,Tesla
 14183986,Javascript
 14183986,Web Development
 14183959,Python
@@ -1243,7 +1181,6 @@ id,topic
 14183050,Python
 14183044,Politics
 14183017,Design
-14183008,Tesla
 14182768,Facebook
 14182759,Microsoft
 14182759,Politics
@@ -1259,7 +1196,6 @@ id,topic
 14182246,Linux
 14182207,Politics
 14182168,Mobile
-14182084,Java
 14182054,Amazon
 14182030,Startups
 14181955,Javascript
@@ -1270,23 +1206,18 @@ id,topic
 14181715,Startups
 14181685,AI/Machine Learning
 14181550,Microsoft
-14181379,Java
 14181139,Startups
 14181073,Mobile
 14180911,AI/Machine Learning
 14180761,Apple
 14180614,Design
-14180539,System Administration
-14180524,Java
 14180524,Security
 14180524,AI/Machine Learning
 14180494,Linux
 14180482,AI/Machine Learning
 14180311,Security
-14180302,System Administration
 14180212,Design
 14179981,Facebook
-14179783,Java
 14179330,Startups
 14178856,Javascript
 14178832,Mobile
@@ -1352,7 +1283,6 @@ id,topic
 14173171,Web Development
 14173066,Amazon
 14172778,Linux
-14172613,Tesla
 14172535,Security
 14172457,Mobile
 14172334,Javascript
@@ -1367,7 +1297,6 @@ id,topic
 14171809,Startups
 14171737,Apple
 14171725,Blockchain
-14171686,Tesla
 14171665,Javascript
 14171665,Web Development
 14171656,AI/Machine Learning
@@ -1375,7 +1304,6 @@ id,topic
 14171605,Linux
 14171524,AI/Machine Learning
 14171365,Politics
-14171302,Self-driving car
 14171254,Google
 14171173,Javascript
 14171173,Web Development
@@ -1422,7 +1350,6 @@ id,topic
 14331208,Python
 14331169,Security
 14331160,Security
-14331028,Java
 14331022,Javascript
 14331022,Microsoft
 14331013,Javascript
@@ -1438,21 +1365,17 @@ id,topic
 14330620,AI/Machine Learning
 14330443,Security
 14330443,Microsoft
-14330341,Tesla
 14330320,Mobile
 14330320,Apple
 14330272,AI/Machine Learning
 14330242,Google
 14330224,Javascript
 14330224,Web Development
-14330140,Java
 14330071,Security
 14330062,Mobile
 14329972,Politics
-14329834,Java
 14329768,Web Development
 14329504,AI/Machine Learning
-14329504,Self-driving car
 14329453,AI/Machine Learning
 14329429,Startups
 14329375,Politics
@@ -1461,7 +1384,6 @@ id,topic
 14329294,Security
 14329207,Facebook
 14329138,Microsoft
-14329093,Tesla
 14329030,Security
 14329030,Politics
 14328895,Web Development
@@ -1509,7 +1431,6 @@ id,topic
 14326063,Microsoft
 14326048,Security
 14326027,Design
-14326024,Self-driving car
 14325946,Mobile
 14325931,AI/Machine Learning
 14325682,Security
@@ -1520,7 +1441,6 @@ id,topic
 14325391,Blockchain
 14325214,Security
 14325121,Design
-14325094,System Administration
 14325061,Databases
 14324935,Security
 14324908,Linux
@@ -1563,7 +1483,6 @@ id,topic
 14323090,Facebook
 14323045,AI/Machine Learning
 14323024,AI/Machine Learning
-14323021,System Administration
 14322910,Mobile
 14322907,Mobile
 14322907,Apple
@@ -1579,7 +1498,6 @@ id,topic
 14322409,Microsoft
 14322397,Javascript
 14322397,Mobile
-14322328,Tesla
 14322085,Design
 14321887,Javascript
 14321758,Mobile
@@ -1592,7 +1510,6 @@ id,topic
 14321080,Python
 14321059,Security
 14321059,AI/Machine Learning
-14321044,Self-driving car
 14320924,Microsoft
 14320738,Linux
 14320687,Javascript
@@ -1606,7 +1523,6 @@ id,topic
 14319946,Apple
 14319901,Microsoft
 14319901,Linux
-14319787,Self-driving car
 14319727,Design
 14319727,Web Development
 14319706,Javascript
@@ -1614,10 +1530,8 @@ id,topic
 14319598,Startups
 14319529,Microsoft
 14319502,AI/Machine Learning
-14319475,Self-driving car
 14319469,Politics
 14319460,Mobile
-14319442,System Administration
 14319400,Mobile
 14319400,Microsoft
 14319397,Mobile
@@ -1625,13 +1539,11 @@ id,topic
 14319379,Microsoft
 14319292,Web Development
 14319283,Design
-14319253,Tesla
 14319214,Mobile
 14319214,Google
 14319199,AI/Machine Learning
 14319037,Apple
 14318662,Web Development
-14318575,Java
 14318563,Amazon
 14318518,Apple
 14318416,Security
@@ -1649,8 +1561,6 @@ id,topic
 14317849,Apple
 14317786,Politics
 14317711,Mobile
-14317597,System Administration
-14317594,Java
 14317564,Microsoft
 14317453,Microsoft
 14317324,Blockchain
@@ -1701,11 +1611,9 @@ id,topic
 14315329,Databases
 14315326,Startups
 14315287,Mobile
-14315251,Tesla
 14315248,Mobile
 14315149,Web Development
 14315125,Mobile
-14315053,System Administration
 14315017,Blockchain
 14315011,AI/Machine Learning
 14314990,Microsoft
@@ -1737,7 +1645,6 @@ id,topic
 14313379,Apple
 14313349,Design
 14313328,Startups
-14313280,Java
 14313151,Python
 14312923,AI/Machine Learning
 14312821,Javascript
@@ -1763,7 +1670,6 @@ id,topic
 14311789,Mobile
 14311672,Microsoft
 14311633,Blockchain
-14311510,Tesla
 14311438,Security
 14311435,AI/Machine Learning
 14311357,Facebook
@@ -1775,7 +1681,6 @@ id,topic
 14311027,Google
 14310994,Startups
 14310910,AI/Machine Learning
-14310826,Tesla
 14310727,Design
 14310727,Web Development
 14310637,Mobile
@@ -1789,7 +1694,6 @@ id,topic
 14310325,Google
 14310325,Facebook
 14310295,AI/Machine Learning
-14310100,Tesla
 14309974,Mobile
 14309755,Linux
 14309662,Databases
@@ -1830,7 +1734,6 @@ id,topic
 14307883,Javascript
 14307883,Web Development
 14307784,Python
-14307676,Self-driving car
 14307622,Design
 14307595,Mobile
 14307490,Microsoft
@@ -1849,7 +1752,6 @@ id,topic
 14307133,Politics
 14307094,Design
 14306869,Facebook
-14306866,Tesla
 14306809,Web Development
 14306716,Design
 14306656,Amazon
@@ -1886,7 +1788,6 @@ id,topic
 14305042,Apple
 14304796,Linux
 14304757,Amazon
-14304748,System Administration
 14304736,Amazon
 14304571,Google
 14304496,Politics
@@ -1973,7 +1874,6 @@ id,topic
 14299012,Web Development
 14298994,Politics
 14298964,Python
-14298958,System Administration
 14298955,Mobile
 14298868,Javascript
 14298868,Web Development
@@ -1997,13 +1897,11 @@ id,topic
 14297941,Apple
 14297905,Startups
 14297833,Politics
-14297683,Self-driving car
 14297659,Javascript
 14297659,Web Development
 14297329,Mobile
 14297308,Mobile
 14297305,Google
-14297296,Self-driving car
 14297263,Web Development
 14297257,Design
 14297257,Google
@@ -2019,7 +1917,6 @@ id,topic
 14296759,Web Development
 14296735,Design
 14296708,AI/Machine Learning
-14296555,Java
 14296555,Mobile
 14296555,Microsoft
 14296093,Startups
@@ -2028,7 +1925,6 @@ id,topic
 14295922,AI/Machine Learning
 14295820,Design
 14295655,Security
-14295475,Tesla
 14295439,Javascript
 14295439,Web Development
 14295430,Javascript
@@ -2045,7 +1941,6 @@ id,topic
 14294572,Javascript
 14294464,Blockchain
 14294404,AI/Machine Learning
-14294356,System Administration
 14294077,Google
 14294077,Apple
 14293858,Javascript
@@ -2055,9 +1950,7 @@ id,topic
 14293591,Databases
 14293552,Mobile
 14293552,Politics
-14293528,System Administration
 14293507,Startups
-14293366,Tesla
 14293342,Google
 14293240,Amazon
 14293240,Databases
@@ -2094,7 +1987,6 @@ id,topic
 14290363,Google
 14290210,Python
 14290195,Facebook
-14290132,Java
 14290114,Web Development
 14290096,Mobile
 14289967,Startups
@@ -2116,7 +2008,6 @@ id,topic
 14288356,AI/Machine Learning
 14288278,Mobile
 14288209,Blockchain
-14288182,Tesla
 14288059,Design
 14288050,Web Development
 14288029,AI/Machine Learning
@@ -2198,7 +2089,6 @@ id,topic
 14279932,Python
 14279917,AI/Machine Learning
 14279893,Security
-14279761,System Administration
 14279653,Google
 14279536,Security
 14279389,Javascript
@@ -2209,19 +2099,16 @@ id,topic
 14279311,Facebook
 14279122,Web Development
 14279116,Microsoft
-14278810,Java
 14278468,Security
 14278357,AI/Machine Learning
 14278009,Databases
 14277346,Security
-14277292,Java
 14277202,Google
 14277040,Startups
 14276752,Blockchain
 14276566,AI/Machine Learning
 14276566,Amazon
 14276158,Mobile
-14275987,Self-driving car
 14275933,Databases
 14275813,Startups
 14275774,Javascript
@@ -2243,13 +2130,10 @@ id,topic
 14267691,Databases
 14267682,Facebook
 14267472,AI/Machine Learning
-14267466,Tesla
 14267424,Microsoft
 14267370,Mobile
-14267157,Self-driving car
 14266998,Facebook
 14266887,Security
-14266632,Tesla
 14266521,Google
 14266347,Apple
 14266185,Blockchain
@@ -2260,11 +2144,8 @@ id,topic
 14265924,AI/Machine Learning
 14265831,Mobile
 14265828,AI/Machine Learning
-14265825,Java
 14265756,Mobile
 14265717,Google
-14265717,Self-driving car
-14265645,System Administration
 14265606,Apple
 14265426,AI/Machine Learning
 14265426,Startups
@@ -2279,8 +2160,6 @@ id,topic
 14264844,Javascript
 14264844,Microsoft
 14264811,Design
-14264796,Tesla
-14264688,Tesla
 14264652,AI/Machine Learning
 14264598,Politics
 14264568,Apple
@@ -2295,7 +2174,6 @@ id,topic
 14264370,Apple
 14264340,Politics
 14264301,Startups
-14264268,System Administration
 14264211,Design
 14264001,Mobile
 14263989,Design
@@ -2313,7 +2191,6 @@ id,topic
 14263221,Mobile
 14263161,Python
 14263152,Mobile
-14263125,Tesla
 14263071,Design
 14263071,Web Development
 14263038,Design
@@ -2335,7 +2212,6 @@ id,topic
 14262396,Blockchain
 14262243,Apple
 14262105,AI/Machine Learning
-14262090,System Administration
 14262021,Mobile
 14261907,Startups
 14261880,Linux
@@ -2358,7 +2234,6 @@ id,topic
 14261019,Security
 14260995,Google
 14260761,Microsoft
-14260473,Tesla
 14260380,Blockchain
 14260320,Design
 14260284,Politics
@@ -2366,13 +2241,11 @@ id,topic
 14260068,Startups
 14260041,Blockchain
 14259906,Python
-14259906,Java
 14259819,Javascript
 14259810,Javascript
 14259627,Mobile
 14259627,Amazon
 14259612,Facebook
-14259579,Tesla
 14259567,Javascript
 14259474,Linux
 14259456,Politics
@@ -2385,7 +2258,6 @@ id,topic
 14259240,Security
 14259138,Design
 14258907,Mobile
-14258904,Self-driving car
 14258805,Politics
 14258802,Politics
 14258520,Apple
@@ -2399,7 +2271,6 @@ id,topic
 14257407,Facebook
 14257374,Microsoft
 14257353,Design
-14257350,System Administration
 14257335,Startups
 14257308,Amazon
 14257002,Startups
@@ -2416,9 +2287,7 @@ id,topic
 14255925,Mobile
 14255874,Python
 14255685,Javascript
-14255685,Java
 14255685,Web Development
-14255673,Self-driving car
 14255646,Politics
 14255631,Javascript
 14255616,Design
@@ -2467,7 +2336,6 @@ id,topic
 14252454,Apple
 14252412,Microsoft
 14251776,Security
-14251713,System Administration
 14251632,Mobile
 14251539,Mobile
 14251272,Databases
@@ -2475,7 +2343,6 @@ id,topic
 14251017,Web Development
 14250705,Javascript
 14250705,Web Development
-14250579,Java
 14250555,Design
 14250360,Mobile
 14250360,Google
@@ -2492,8 +2359,6 @@ id,topic
 14248626,Facebook
 14248539,Javascript
 14248509,Web Development
-14248503,Java
-14248488,System Administration
 14248338,Javascript
 14248338,Web Development
 14248206,Facebook
@@ -2515,7 +2380,6 @@ id,topic
 14247183,Apple
 14247183,Facebook
 14247183,Amazon
-14247117,Java
 14247012,Blockchain
 14246928,Python
 14246925,AI/Machine Learning
@@ -2527,7 +2391,6 @@ id,topic
 14246796,Mobile
 14246772,AI/Machine Learning
 14246583,Politics
-14246490,Self-driving car
 14246457,Microsoft
 14246415,Facebook
 14246148,Microsoft
@@ -2569,7 +2432,6 @@ id,topic
 14244639,Linux
 14244585,Politics
 14244558,Apple
-14244513,Java
 14244375,Python
 14244369,Mobile
 14244060,Web Development
@@ -2595,7 +2457,6 @@ id,topic
 14241090,Javascript
 14241090,Web Development
 14240652,Google
-14240604,System Administration
 14240589,Google
 14240586,Facebook
 14240301,Javascript
@@ -2604,7 +2465,6 @@ id,topic
 14240034,Web Development
 14239953,Amazon
 14239947,Blockchain
-14239884,Java
 14239857,Javascript
 14239746,Facebook
 14239725,Apple
@@ -2621,7 +2481,6 @@ id,topic
 14238453,Design
 14238408,Web Development
 14238000,Javascript
-14237934,Tesla
 14237931,Microsoft
 14237718,Linux
 14237682,Blockchain
@@ -2643,7 +2502,6 @@ id,topic
 14236746,Apple
 14236746,Linux
 14236641,Web Development
-14236626,Java
 14236626,Web Development
 14236605,Python
 14236539,Mobile
@@ -2651,10 +2509,8 @@ id,topic
 14236500,Databases
 14236473,Design
 14236386,Startups
-14236269,Self-driving car
 14236080,Mobile
 14235993,Mobile
-14235987,Java
 14235852,Design
 14235846,Amazon
 14235744,Databases
@@ -2722,7 +2578,6 @@ id,topic
 14228967,Startups
 14228556,Startups
 14228508,AI/Machine Learning
-14228454,Java
 14227950,Google
 14227872,Javascript
 14227872,Web Development
@@ -2747,7 +2602,6 @@ id,topic
 14226516,AI/Machine Learning
 14226513,Politics
 14226444,Databases
-14226348,Java
 14226261,Javascript
 14226234,Design
 14226192,Linux
@@ -2777,7 +2631,6 @@ id,topic
 14223075,Design
 14222994,Databases
 14222781,Apple
-14222763,Tesla
 14222721,Databases
 14222688,Microsoft
 14222688,Apple
@@ -2796,7 +2649,6 @@ id,topic
 14221581,Politics
 14221482,Security
 14221338,Security
-14221326,System Administration
 14221302,Python
 14221302,AI/Machine Learning
 14221110,Apple
@@ -2816,7 +2668,6 @@ id,topic
 14220675,Javascript
 14220675,Web Development
 14220672,Mobile
-14220642,Java
 14220642,Microsoft
 14220642,Linux
 14220627,Javascript
@@ -2827,7 +2678,6 @@ id,topic
 14219901,AI/Machine Learning
 14219538,Mobile
 14219499,Google
-14219400,Java
 14219316,AI/Machine Learning
 14219307,Mobile
 14219283,AI/Machine Learning
@@ -2837,7 +2687,6 @@ id,topic
 14219118,AI/Machine Learning
 14219049,Security
 14218980,Politics
-14218953,System Administration
 14218920,Javascript
 14218920,Web Development
 14218881,Politics
@@ -2853,7 +2702,6 @@ id,topic
 14218560,Google
 14218560,Facebook
 14218239,AI/Machine Learning
-14218113,Self-driving car
 14218098,Politics
 14218089,Mobile
 14218038,Mobile
@@ -2868,7 +2716,6 @@ id,topic
 14217798,Google
 14217798,Web Development
 14217771,Apple
-14217771,Self-driving car
 14217765,Apple
 14217606,AI/Machine Learning
 14217429,Security
@@ -2894,22 +2741,18 @@ id,topic
 14216472,Design
 14216472,Web Development
 14216439,Web Development
-14216334,Java
 14216172,Politics
 14216136,Mobile
 14216103,AI/Machine Learning
 14216079,Design
-14216028,System Administration
 14215836,Google
 14215836,Facebook
-14215551,System Administration
 14215416,Startups
 14215344,Blockchain
 14215320,Mobile
 14215125,Politics
 14215077,Facebook
 14214840,AI/Machine Learning
-14214810,Self-driving car
 14214753,Amazon
 14214741,Microsoft
 14214687,Amazon
@@ -2919,7 +2762,6 @@ id,topic
 14214483,Web Development
 14214465,Facebook
 14214342,Politics
-14214285,Tesla
 14214237,Startups
 14214237,Politics
 14214219,Microsoft
@@ -2932,7 +2774,6 @@ id,topic
 14213967,Web Development
 14213856,Amazon
 14213847,Mobile
-14213829,System Administration
 14213724,Mobile
 14213712,Mobile
 14213679,Mobile
@@ -2966,7 +2807,6 @@ id,topic
 14212662,Google
 14212662,Facebook
 14212647,Google
-14212647,Self-driving car
 14212575,Mobile
 14212395,AI/Machine Learning
 14212362,Security
@@ -2980,7 +2820,6 @@ id,topic
 14211465,Google
 14211357,Design
 14211357,Web Development
-14211252,System Administration
 14211162,Design
 14211162,Web Development
 14211117,Politics
@@ -3056,7 +2895,6 @@ id,topic
 14206245,Mobile
 14206014,Mobile
 14206014,Microsoft
-14205717,Self-driving car
 14205615,AI/Machine Learning
 14205522,Politics
 14205432,Google
@@ -3101,7 +2939,6 @@ id,topic
 14203653,Security
 14203593,Javascript
 14203491,Design
-14203491,System Administration
 14203476,Mobile
 14203476,Linux
 14203431,Linux
@@ -3158,8 +2995,6 @@ id,topic
 14198646,Mobile
 14198598,Politics
 14198553,Design
-14198487,Self-driving car
-14198229,Self-driving car
 14198184,Linux
 14198184,Web Development
 14197629,AI/Machine Learning
@@ -3177,16 +3012,12 @@ id,topic
 14196711,Web Development
 14196456,AI/Machine Learning
 14196270,Google
-14196270,Self-driving car
 14196234,Google
-14196186,Java
 14196186,Mobile
 14196018,Security
 14195958,Mobile
 14195952,Javascript
 14195952,Web Development
-14195889,Java
-14195844,System Administration
 14195838,Politics
 14195748,Web Development
 14195745,Politics
@@ -3209,22 +3040,18 @@ id,topic
 14194287,Design
 14194260,Politics
 14194221,Blockchain
-14194146,Tesla
 14194089,Google
 14193969,Javascript
 14193969,AI/Machine Learning
 14193969,Web Development
 14193885,Javascript
 14193885,Web Development
-14193882,Java
 14193858,Security
 14193702,Security
 14193702,Google
 14193561,Google
 14193519,Facebook
 14193363,Security
-14193363,System Administration
-14193162,Self-driving car
 14193132,Mobile
 14193027,Startups
 14192829,Security
@@ -3237,7 +3064,6 @@ id,topic
 14192628,Web Development
 14192514,Linux
 14192436,Security
-14192433,Self-driving car
 14192346,Databases
 14192208,Facebook
 14192178,Web Development
@@ -3252,7 +3078,6 @@ id,topic
 14191797,Mobile
 14191506,Startups
 14191500,Python
-14191473,Self-driving car
 14191398,Apple
 14191278,Politics
 14191266,Mobile
@@ -3269,7 +3094,6 @@ id,topic
 14190438,Mobile
 14190387,Amazon
 14190273,Databases
-14190267,Self-driving car
 14190267,Linux
 14190147,Python
 14190108,Microsoft
@@ -3306,7 +3130,6 @@ id,topic
 14186427,Python
 14186427,AI/Machine Learning
 14186391,AI/Machine Learning
-14186265,Tesla
 14186100,Security
 14185965,Javascript
 14185965,Web Development
@@ -3342,7 +3165,6 @@ id,topic
 14184417,Design
 14184366,Mobile
 14184312,Facebook
-14184252,Java
 14184150,Startups
 14184087,Javascript
 14183991,Linux
@@ -3356,34 +3178,26 @@ id,topic
 14183700,Databases
 14183646,Politics
 14183442,Security
-14183409,Tesla
 14183361,Databases
 14183328,Google
 14183280,Design
 14183151,Python
-14183145,System Administration
 14183124,Security
 14183124,AI/Machine Learning
-14183121,System Administration
 14183043,Python
 14182953,AI/Machine Learning
-14182911,Self-driving car
 14182737,Web Development
 14182704,Design
 14182650,Linux
 14182641,Javascript
 14182641,Web Development
 14182557,Startups
-14182530,Tesla
 14182503,Mobile
 14182404,Politics
 14182377,Blockchain
 14182371,Google
-14182335,Tesla
 14182308,Startups
 14182299,Mobile
-14182134,System Administration
-14182131,System Administration
 14182056,Startups
 14182017,Microsoft
 14182014,Google
@@ -3470,7 +3284,6 @@ id,topic
 14176440,Databases
 14176245,Google
 14176245,Apple
-14176245,Self-driving car
 14176182,Mobile
 14176182,Linux
 14176038,Amazon
@@ -3495,10 +3308,8 @@ id,topic
 14174547,Politics
 14174538,Startups
 14174460,Google
-14174406,System Administration
 14174343,Web Development
 14174124,Blockchain
-14174061,Tesla
 14173995,Mobile
 14173917,Web Development
 14173878,Web Development
@@ -3517,7 +3328,6 @@ id,topic
 14171988,Design
 14171910,Google
 14171910,Apple
-14171739,Java
 14171733,Security
 14171709,Python
 14171637,Microsoft
@@ -3536,11 +3346,8 @@ id,topic
 14171286,Mobile
 14171286,AI/Machine Learning
 14171277,Web Development
-14171250,Java
-14171217,Java
 14171004,Google
 14171004,Apple
-14171004,Self-driving car
 14170740,AI/Machine Learning
 14170341,Politics
 14170320,Google
@@ -3567,7 +3374,6 @@ id,topic
 14168130,Politics
 14168097,Blockchain
 14168031,Mobile
-14167956,Tesla
 14167830,Design
 14167770,Python
 14167653,Web Development
@@ -3593,7 +3399,6 @@ id,topic
 14165928,Startups
 14165904,Javascript
 14165685,Security
-14165676,Tesla
 14165661,Google
 14165619,Mobile
 14165574,Python
@@ -3608,7 +3413,6 @@ id,topic
 14164935,Javascript
 14164935,Web Development
 14164914,Linux
-14164692,Java
 14164656,Mobile
 14164656,Security
 14164653,Javascript
@@ -3680,7 +3484,6 @@ id,topic
 14160201,Mobile
 14160069,AI/Machine Learning
 14159994,Design
-14159916,Tesla
 14159916,Startups
 14159907,Python
 14159883,Microsoft
@@ -3705,10 +3508,6 @@ id,topic
 14159052,Web Development
 14159034,Politics
 14158839,Politics
-14158821,Tesla
-14158755,Tesla
-14158701,Tesla
-14158671,Tesla
 14158650,Startups
 14158644,Javascript
 14158626,Design
@@ -3744,7 +3543,6 @@ id,topic
 14156664,Mobile
 14156475,Python
 14156475,AI/Machine Learning
-14156475,Self-driving car
 14156394,AI/Machine Learning
 14156136,Javascript
 14156136,Web Development
@@ -3782,7 +3580,6 @@ id,topic
 14154462,Web Development
 14154453,Facebook
 14154378,Microsoft
-14154348,Self-driving car
 14154327,Mobile
 14154150,Web Development
 14154051,Design
@@ -3798,8 +3595,6 @@ id,topic
 14153307,Amazon
 14153178,AI/Machine Learning
 14153046,Web Development
-14152701,Tesla
-14152701,Self-driving car
 14152668,Mobile
 14152542,Web Development
 14152482,Politics
@@ -3811,7 +3606,6 @@ id,topic
 14151933,Amazon
 14151930,Security
 14151888,Databases
-14151675,Self-driving car
 14151663,Amazon
 14151660,Facebook
 14151588,Web Development
@@ -3820,7 +3614,6 @@ id,topic
 14151246,Databases
 14151015,Mobile
 14151015,Startups
-14150988,Java
 14150979,Amazon
 14150949,Linux
 14150940,Web Development
@@ -3865,14 +3658,11 @@ id,topic
 14148168,Design
 14148150,AI/Machine Learning
 14148150,Facebook
-14148060,Java
 14148060,Mobile
 14147988,AI/Machine Learning
 14147907,Javascript
 14147907,Web Development
-14147895,Self-driving car
 14147829,Facebook
-14147769,Self-driving car
 14147700,Web Development
 14147667,AI/Machine Learning
 14147664,Security
@@ -3915,14 +3705,11 @@ id,topic
 14146326,Mobile
 14146188,Apple
 14146146,Javascript
-14146131,Java
 14145957,Design
 14145903,Databases
 14145636,Python
 14145594,Mobile
-14145576,Self-driving car
 14145522,Design
-14145102,Self-driving car
 14144568,Blockchain
 14144442,Facebook
 14144442,Startups
@@ -3966,7 +3753,6 @@ id,topic
 14142084,Mobile
 14142054,Python
 14141910,Politics
-14141805,Java
 14141766,Politics
 14141664,Mobile
 14141664,Facebook
@@ -3983,13 +3769,11 @@ id,topic
 14141331,Amazon
 14141325,Mobile
 14141187,Facebook
-14141136,Java
 14141079,Facebook
 14141067,Amazon
 14140968,Microsoft
 14140959,Linux
 14140890,Microsoft
-14140875,Self-driving car
 14140803,Startups
 14140764,Google
 14140482,Javascript
@@ -4056,7 +3840,6 @@ id,topic
 14137440,Google
 14137440,Web Development
 14137392,Google
-14137389,System Administration
 14137386,Python
 14137386,Web Development
 14137320,AI/Machine Learning
@@ -4070,7 +3853,6 @@ id,topic
 14136747,Mobile
 14136747,Web Development
 14136621,Security
-14136585,System Administration
 14136522,Google
 14136519,Design
 14136426,Politics
@@ -4097,7 +3879,6 @@ id,topic
 14135040,Apple
 14134752,Apple
 14134653,AI/Machine Learning
-14134566,Java
 14134443,Linux
 14134080,Javascript
 14133921,Startups
@@ -4121,7 +3902,6 @@ id,topic
 14132457,Mobile
 14132457,Blockchain
 14132457,Google
-14132382,Tesla
 14132352,Amazon
 14132223,Javascript
 14132223,Web Development
@@ -4152,9 +3932,7 @@ id,topic
 14129832,Databases
 14129823,Mobile
 14129745,AI/Machine Learning
-14129721,Self-driving car
 14129670,Mobile
-14129664,Java
 14129649,Web Development
 14129625,AI/Machine Learning
 14129613,Politics
@@ -4167,13 +3945,11 @@ id,topic
 14129412,Mobile
 14129286,Databases
 14129163,Startups
-14128986,Java
 14128863,AI/Machine Learning
 14128677,Blockchain
 14128182,Mobile
 14128098,Mobile
 14128086,Design
-14128065,Tesla
 14127828,Politics
 14127702,Mobile
 14127699,Security
@@ -4184,7 +3960,6 @@ id,topic
 14127468,Design
 14127468,AI/Machine Learning
 14127321,Linux
-14127294,Tesla
 14127267,Politics
 14127210,Politics
 14127006,AI/Machine Learning
@@ -4228,7 +4003,6 @@ id,topic
 14124066,Microsoft
 14124045,Javascript
 14124033,Web Development
-14123913,Tesla
 14123805,Politics
 14123715,Microsoft
 14123643,Mobile
@@ -4243,12 +4017,9 @@ id,topic
 14122677,Google
 14122584,Google
 14122548,Blockchain
-14122473,Java
 14122440,Microsoft
-14122341,Tesla
 14122134,Politics
 14121780,Security
-14121747,Java
 14121720,Linux
 14121708,Linux
 14121693,Startups
@@ -4279,7 +4050,6 @@ id,topic
 14120427,Microsoft
 14120208,Mobile
 14120121,Apple
-14120121,Self-driving car
 14119971,Mobile
 14119923,Web Development
 14119797,Javascript
@@ -4304,7 +4074,6 @@ id,topic
 14118549,Mobile
 14118537,Startups
 14118537,Politics
-14118468,Java
 14118468,Mobile
 14118453,Javascript
 14118453,Web Development
@@ -4326,7 +4095,6 @@ id,topic
 14117265,AI/Machine Learning
 14117247,AI/Machine Learning
 14117145,Databases
-14117034,Java
 14117034,Mobile
 14117013,AI/Machine Learning
 14116989,Design
@@ -4351,7 +4119,6 @@ id,topic
 14115957,Design
 14115873,AI/Machine Learning
 14115786,Apple
-14115786,Self-driving car
 14115762,Python
 14115735,Microsoft
 14115702,Linux
@@ -4363,14 +4130,11 @@ id,topic
 14115471,Microsoft
 14115471,Apple
 14115387,Apple
-14115387,Self-driving car
 14115345,Apple
-14115345,Self-driving car
 14115294,Mobile
 14115126,Facebook
 14115114,Microsoft
 14115093,Web Development
-14115069,System Administration
 14115069,Databases
 14115000,Databases
 14114985,Apple
@@ -4413,7 +4177,6 @@ id,topic
 14112939,Mobile
 14112936,Python
 14112861,Web Development
-14112726,Self-driving car
 14112717,Linux
 14112690,Linux
 14112687,AI/Machine Learning
@@ -4427,7 +4190,6 @@ id,topic
 14112027,Startups
 14112015,Mobile
 14112003,Mobile
-14111868,Tesla
 14111763,AI/Machine Learning
 14111727,Mobile
 14111667,AI/Machine Learning
@@ -4445,11 +4207,9 @@ id,topic
 14110842,Startups
 14110779,Javascript
 14110779,Web Development
-14110722,Tesla
 14110704,Google
 14110689,Mobile
 14110572,Design
-14110572,Tesla
 14110542,Databases
 14110455,Design
 14110344,Startups
@@ -4457,18 +4217,13 @@ id,topic
 14110218,Startups
 14110185,Mobile
 14110179,Google
-14110143,System Administration
 14110143,Databases
-14110113,Tesla
 14110038,Javascript
 14110038,Web Development
 14109771,Mobile
-14109762,Tesla
 14109732,Mobile
-14109702,Tesla
 14109666,Design
 14109606,Microsoft
-14109552,Tesla
 14109513,Google
 14109060,Linux
 14109048,Design
@@ -4483,7 +4238,6 @@ id,topic
 14108205,Google
 14107980,Design
 14107818,Databases
-14107722,Self-driving car
 14107422,Startups
 14107410,Linux
 14107365,Design
@@ -4497,7 +4251,6 @@ id,topic
 14106780,Blockchain
 14106672,Javascript
 14106441,Web Development
-14106417,System Administration
 14106342,Javascript
 14106342,Web Development
 14106318,Blockchain
@@ -4514,7 +4267,6 @@ id,topic
 14105187,Web Development
 14105124,Databases
 14104998,Microsoft
-14104959,Tesla
 14104956,Mobile
 14104956,Startups
 14104824,Google
@@ -4552,7 +4304,6 @@ id,topic
 14102193,Google
 14102184,AI/Machine Learning
 14102172,Amazon
-14102160,System Administration
 14102127,Web Development
 14102055,Microsoft
 14102055,Linux
@@ -4669,12 +4420,10 @@ id,topic
 14327115,Politics
 14327088,Javascript
 14327088,Web Development
-14326989,Self-driving car
 14326959,Javascript
 14326824,Security
 14326824,Politics
 14326626,Amazon
-14326611,Self-driving car
 14326512,Mobile
 14326416,Python
 14326416,Microsoft
@@ -4689,7 +4438,6 @@ id,topic
 14325813,Facebook
 14325750,Startups
 14325747,Startups
-14325669,Self-driving car
 14325624,Javascript
 14325624,Web Development
 14325621,Politics
@@ -4710,7 +4458,6 @@ id,topic
 14324709,Facebook
 14324700,Design
 14324670,Politics
-14324589,System Administration
 14324406,Javascript
 14324406,Facebook
 14324391,Security
@@ -4720,9 +4467,7 @@ id,topic
 14324139,Python
 14324082,Politics
 14324046,Microsoft
-14324019,Tesla
 14323734,Facebook
-14323704,Tesla
 14323659,Design
 14323659,Web Development
 14323587,AI/Machine Learning
@@ -4747,7 +4492,6 @@ id,topic
 14322576,Design
 14322549,Startups
 14322546,Javascript
-14322513,System Administration
 14322504,AI/Machine Learning
 14322471,Politics
 14322240,Javascript
@@ -4797,7 +4541,6 @@ id,topic
 14318754,Mobile
 14318700,Mobile
 14318466,Startups
-14318466,Self-driving car
 14318406,Microsoft
 14318358,Microsoft
 14318313,Databases
@@ -4814,7 +4557,6 @@ id,topic
 14317332,Microsoft
 14317182,Facebook
 14317077,AI/Machine Learning
-14317050,Java
 14317008,Javascript
 14317008,Web Development
 14316831,Python
@@ -4822,8 +4564,6 @@ id,topic
 14316822,Web Development
 14316807,Design
 14316639,Startups
-14316636,System Administration
-14316537,System Administration
 14316489,AI/Machine Learning
 14316441,Mobile
 14316411,Mobile
@@ -4842,7 +4582,6 @@ id,topic
 14315619,Mobile
 14315598,Javascript
 14315583,Design
-14315520,Java
 14315502,Security
 14315397,Blockchain
 14315352,Databases
@@ -4888,7 +4627,6 @@ id,topic
 14313387,Javascript
 14313387,Web Development
 14313381,Mobile
-14313279,Self-driving car
 14313027,Linux
 14312988,Databases
 14312931,Amazon
@@ -4898,7 +4636,6 @@ id,topic
 14312730,Google
 14312682,Web Development
 14312679,AI/Machine Learning
-14312454,Tesla
 14312379,Politics
 14312292,Databases
 14312292,Web Development
@@ -4912,7 +4649,6 @@ id,topic
 14311578,Blockchain
 14311497,Security
 14311293,Startups
-14311227,Java
 14311161,Javascript
 14311095,AI/Machine Learning
 14310822,Politics
@@ -4920,7 +4656,6 @@ id,topic
 14310813,Web Development
 14310801,Amazon
 14310744,Microsoft
-14310621,Tesla
 14310498,Politics
 14310465,Microsoft
 14310456,Linux
@@ -4933,7 +4668,6 @@ id,topic
 14310066,Amazon
 14309931,Facebook
 14309925,AI/Machine Learning
-14309925,Tesla
 14309913,Politics
 14309901,Security
 14309889,Startups
@@ -4958,14 +4692,12 @@ id,topic
 14309214,Javascript
 14309202,AI/Machine Learning
 14309118,Microsoft
-14309103,Tesla
 14309094,Microsoft
 14309076,Microsoft
 14309076,Politics
 14309058,Politics
 14309022,Microsoft
 14309022,Amazon
-14309013,System Administration
 14308992,Mobile
 14308944,Databases
 14308908,Javascript
@@ -4980,7 +4712,6 @@ id,topic
 14308518,Javascript
 14308485,Python
 14308218,AI/Machine Learning
-14307984,Self-driving car
 14307948,Javascript
 14307948,Web Development
 14307942,Mobile
@@ -5059,7 +4790,6 @@ id,topic
 14303274,Design
 14303259,Google
 14303223,Security
-14303097,Self-driving car
 14303022,Linux
 14303022,Web Development
 14303001,Linux
@@ -5071,7 +4801,6 @@ id,topic
 14301744,Startups
 14301714,Mobile
 14301630,Javascript
-14301630,Java
 14301630,Web Development
 14301399,Databases
 14301390,Amazon
@@ -5163,14 +4892,12 @@ id,topic
 14297148,Facebook
 14297067,Facebook
 14297061,Politics
-14297022,System Administration
 14296959,Microsoft
 14296941,Microsoft
 14296866,Security
 14296866,Politics
 14296788,Linux
 14296647,Apple
-14296467,Tesla
 14296434,Design
 14296434,Security
 14296425,AI/Machine Learning
@@ -5259,14 +4986,12 @@ id,topic
 14290965,Databases
 14290926,Security
 14290851,Politics
-14290734,Self-driving car
 14290560,Web Development
 14290512,Databases
 14290491,Web Development
 14290476,Blockchain
 14290464,Web Development
 14290458,Javascript
-14290290,Tesla
 14290257,Security
 14290206,Mobile
 14290089,Javascript
@@ -5296,7 +5021,6 @@ id,topic
 14289261,Web Development
 14289240,Design
 14289144,Javascript
-14289144,Java
 14289144,Web Development
 14288715,Javascript
 14288715,Microsoft
@@ -5327,7 +5051,6 @@ id,topic
 14285601,Google
 14285547,AI/Machine Learning
 14285478,Design
-14285211,System Administration
 14284923,Linux
 14284758,Microsoft
 14284758,Linux
@@ -5429,7 +5152,6 @@ id,topic
 14273970,Startups
 14273856,Security
 14273802,Apple
-14273802,Tesla
 14273652,AI/Machine Learning
 14273601,Google
 14273529,Web Development
@@ -5440,14 +5162,12 @@ id,topic
 14273352,Databases
 14273292,Google
 14273184,Python
-14272998,Self-driving car
 14272878,Mobile
 14272809,Javascript
 14272752,Google
 14272704,Apple
 14272575,Web Development
 14272545,AI/Machine Learning
-14272434,Self-driving car
 14272395,Mobile
 14272194,Startups
 14272092,Databases
@@ -5497,8 +5217,6 @@ id,topic
 14276912,Google
 14276912,Facebook
 14276912,Amazon
-14276801,System Administration
-14276777,Tesla
 14276750,Amazon
 14276576,Amazon
 14276486,Javascript
@@ -5530,7 +5248,6 @@ id,topic
 14273681,Security
 14273660,Apple
 14273621,Startups
-14273618,Tesla
 14273534,Microsoft
 14273456,Databases
 14273315,Security
@@ -5553,7 +5270,6 @@ id,topic
 14272184,Security
 14272184,Google
 14272169,Web Development
-14272157,System Administration
 14272049,Politics
 14271863,Security
 14271833,AI/Machine Learning
@@ -5581,7 +5297,6 @@ id,topic
 14270711,Apple
 14270597,Startups
 14270588,Facebook
-14270555,Java
 14270237,Blockchain
 14270237,Startups
 14270207,Mobile
@@ -5612,19 +5327,15 @@ id,topic
 14267372,Design
 14267255,Mobile
 14267246,Startups
-14267195,Java
 14267192,Security
 14267192,Google
 14267120,Facebook
-14266940,System Administration
 14266727,Javascript
 14266529,Google
 14266511,Linux
 14266421,Javascript
 14266334,Blockchain
 14266298,Databases
-14266202,Tesla
-14266082,Java
 14266010,Javascript
 14265905,Startups
 14265899,Javascript
@@ -5648,14 +5359,11 @@ id,topic
 14264801,Javascript
 14264801,Web Development
 14264780,Apple
-14264594,Tesla
 14264507,Web Development
 14264393,Facebook
-14264261,Java
 14264201,Design
 14264189,Linux
 14264108,AI/Machine Learning
-14264039,Java
 14264009,Security
 14264009,Linux
 14263922,Apple
@@ -5664,7 +5372,6 @@ id,topic
 14263838,Blockchain
 14263832,Javascript
 14263826,Security
-14263793,Java
 14263766,AI/Machine Learning
 14263730,Google
 14263712,Facebook
@@ -5688,7 +5395,6 @@ id,topic
 14262845,Web Development
 14262815,Google
 14262815,Web Development
-14262803,Tesla
 14262716,Microsoft
 14262623,Apple
 14262545,Linux
@@ -5718,7 +5424,6 @@ id,topic
 14260697,Python
 14260688,Security
 14260688,Google
-14260595,Tesla
 14260499,Google
 14260433,Startups
 14260373,Databases
@@ -5727,10 +5432,8 @@ id,topic
 14260304,Security
 14260304,Linux
 14259920,Google
-14259878,Java
 14259878,Databases
 14259767,Facebook
-14259698,Tesla
 14259674,Mobile
 14259611,Javascript
 14259611,Design
@@ -5742,7 +5445,6 @@ id,topic
 14259215,Javascript
 14259215,Web Development
 14259170,Python
-14259134,Self-driving car
 14259113,Linux
 14258999,Google
 14258972,Databases
@@ -5756,7 +5458,6 @@ id,topic
 14258657,AI/Machine Learning
 14258657,Google
 14258627,Google
-14258627,Self-driving car
 14258513,Facebook
 14258504,Design
 14258414,Design
@@ -5764,7 +5465,6 @@ id,topic
 14258153,Google
 14258147,Mobile
 14258147,Amazon
-14258087,Tesla
 14258057,Mobile
 14258057,Google
 14257916,Google
@@ -5815,7 +5515,6 @@ id,topic
 14255303,Microsoft
 14255249,Mobile
 14255213,AI/Machine Learning
-14255081,Java
 14255033,Politics
 14255015,AI/Machine Learning
 14254961,Databases
@@ -5862,7 +5561,6 @@ id,topic
 14252771,Web Development
 14252753,Security
 14252624,AI/Machine Learning
-14252606,Java
 14252564,Politics
 14252513,Security
 14252441,Amazon
@@ -5887,7 +5585,6 @@ id,topic
 14249846,Politics
 14249738,Apple
 14249681,Facebook
-14249543,Java
 14249531,Javascript
 14249531,Web Development
 14249471,Mobile
@@ -5971,7 +5668,6 @@ id,topic
 14244956,Politics
 14244947,Javascript
 14244938,Mobile
-14244920,Java
 14244899,Web Development
 14244896,Linux
 14244863,Mobile
@@ -6026,7 +5722,6 @@ id,topic
 14239541,Linux
 14239535,Politics
 14239382,Blockchain
-14239376,Java
 14239376,Design
 14239226,Databases
 14238971,Javascript
@@ -6036,9 +5731,7 @@ id,topic
 14238788,Design
 14238728,Startups
 14238410,AI/Machine Learning
-14238221,System Administration
 14238221,Web Development
-14238047,Java
 14237930,AI/Machine Learning
 14237759,Facebook
 14237582,Google
@@ -6054,7 +5747,6 @@ id,topic
 14236712,Blockchain
 14236667,Politics
 14236634,Design
-14236568,System Administration
 14236556,Javascript
 14236475,Security
 14236469,Facebook
@@ -6073,7 +5765,6 @@ id,topic
 14235179,Politics
 14234903,Blockchain
 14234852,Mobile
-14234822,Tesla
 14234681,Linux
 14234681,Web Development
 14234606,Javascript
@@ -6113,7 +5804,6 @@ id,topic
 14231624,Google
 14231486,Javascript
 14231396,Facebook
-14231267,System Administration
 14231186,Mobile
 14231186,Microsoft
 14231087,Databases
@@ -6173,7 +5863,6 @@ id,topic
 14225492,Apple
 14225414,Startups
 14225219,Google
-14225015,Tesla
 14224949,Politics
 14224910,Facebook
 14224874,Google
@@ -6205,7 +5894,6 @@ id,topic
 14221373,Google
 14221373,Facebook
 14221127,Politics
-14220995,Tesla
 14220668,Python
 14220581,Databases
 14220485,Google
@@ -6216,7 +5904,6 @@ id,topic
 14220065,Apple
 14220020,Apple
 14219945,Startups
-14219936,System Administration
 14219918,Amazon
 14219819,Google
 14219762,AI/Machine Learning
@@ -6226,7 +5913,6 @@ id,topic
 14219567,Facebook
 14219567,Politics
 14219558,Startups
-14219558,Self-driving car
 14219477,Mobile
 14219459,Facebook
 14219360,Amazon
@@ -6238,20 +5924,17 @@ id,topic
 14218955,Javascript
 14218955,Web Development
 14218838,Apple
-14218838,Self-driving car
 14218730,Amazon
 14218574,AI/Machine Learning
 14218382,Mobile
 14218382,Design
 14218286,Mobile
-14218211,Tesla
 14218169,Linux
 14218115,Python
 14218112,Politics
 14218109,AI/Machine Learning
 14218001,Linux
 14217971,Linux
-14217941,Self-driving car
 14217908,Startups
 14217908,Politics
 14217779,Google
@@ -6273,7 +5956,6 @@ id,topic
 14217149,Blockchain
 14217140,Python
 14217140,AI/Machine Learning
-14217140,Self-driving car
 14216816,Security
 14216669,Microsoft
 14216624,Google
@@ -6293,9 +5975,7 @@ id,topic
 14214872,Javascript
 14214872,Web Development
 14214644,Google
-14214644,Self-driving car
 14214593,Python
-14214494,Self-driving car
 14214239,Javascript
 14214203,Blockchain
 14214191,Javascript
@@ -6326,7 +6006,6 @@ id,topic
 14213066,Javascript
 14213066,Web Development
 14213045,Linux
-14213033,Self-driving car
 14212967,Databases
 14212796,Security
 14212787,Linux
@@ -6470,12 +6149,10 @@ id,topic
 14202956,Politics
 14202815,Design
 14202761,Mobile
-14202743,Tesla
 14202686,Mobile
 14202620,Mobile
 14202617,Mobile
 14202617,Web Development
-14202599,Tesla
 14202593,AI/Machine Learning
 14202488,Javascript
 14202461,Google
@@ -6503,7 +6180,6 @@ id,topic
 14201471,Mobile
 14201447,Databases
 14201411,Web Development
-14201279,Self-driving car
 14201276,Politics
 14201237,Politics
 14201150,Mobile
@@ -6514,7 +6190,6 @@ id,topic
 14201012,Politics
 14200925,Security
 14200901,Microsoft
-14200835,System Administration
 14200826,Mobile
 14200685,Blockchain
 14200652,Javascript
@@ -6535,7 +6210,6 @@ id,topic
 14199758,Politics
 14199632,Javascript
 14199632,Web Development
-14199341,Self-driving car
 14199125,Linux
 14199032,Facebook
 14198606,Design
@@ -6566,14 +6240,12 @@ id,topic
 14196749,Javascript
 14196743,Politics
 14196611,Blockchain
-14196563,Self-driving car
 14196542,Linux
 14196512,Google
 14196491,Security
 14196461,Mobile
 14196263,Javascript
 14196263,Web Development
-14196215,Self-driving car
 14196077,Javascript
 14195954,Design
 14195873,Blockchain
@@ -6588,7 +6260,6 @@ id,topic
 14195015,AI/Machine Learning
 14194985,Mobile
 14194910,Google
-14194910,Self-driving car
 14194874,Google
 14194802,Startups
 14194502,Web Development
@@ -6614,7 +6285,6 @@ id,topic
 14193626,Google
 14193605,Linux
 14193533,Microsoft
-14193503,Self-driving car
 14193260,Design
 14193251,Facebook
 14193248,Design
@@ -6632,7 +6302,6 @@ id,topic
 14192675,Javascript
 14192480,Mobile
 14192216,Google
-14191979,Tesla
 14191922,Mobile
 14191922,Google
 14191877,Startups
@@ -6643,7 +6312,6 @@ id,topic
 14191448,AI/Machine Learning
 14191442,Javascript
 14191439,Web Development
-14191421,Self-driving car
 14191409,Javascript
 14191409,Web Development
 14191406,Startups
@@ -6697,9 +6365,7 @@ id,topic
 14186783,Databases
 14186783,Web Development
 14186738,Politics
-14186456,Tesla
 14186447,Facebook
-14186411,System Administration
 14186402,Javascript
 14186402,Web Development
 14186312,Politics
@@ -6708,7 +6374,6 @@ id,topic
 14186150,Amazon
 14185868,Microsoft
 14185805,Startups
-14185739,Tesla
 14185433,Javascript
 14185433,Web Development
 14185397,Web Development
@@ -6782,7 +6447,6 @@ id,topic
 14178947,Databases
 14178740,Facebook
 14178629,Mobile
-14178626,Self-driving car
 14178611,Security
 14178611,Startups
 14178491,Javascript
@@ -6791,7 +6455,6 @@ id,topic
 14178416,Politics
 14178296,Startups
 14178281,AI/Machine Learning
-14178251,Self-driving car
 14178215,Web Development
 14178206,AI/Machine Learning
 14178128,Google
@@ -6806,7 +6469,6 @@ id,topic
 14177495,Security
 14177411,Databases
 14177405,Python
-14177405,Java
 14177327,Linux
 14177264,Databases
 14177054,Mobile
@@ -6820,14 +6482,11 @@ id,topic
 14176265,Mobile
 14176139,AI/Machine Learning
 14176094,Python
-14176094,Java
 14175485,Linux
 14175416,Linux
-14175323,Java
 14175323,Databases
 14175137,Mobile
 14174855,Javascript
-14174855,Java
 14174855,Web Development
 14174720,AI/Machine Learning
 14174453,Javascript
@@ -6869,17 +6528,13 @@ id,topic
 14171741,Startups
 14171507,Startups
 14171492,AI/Machine Learning
-14171441,Java
 14171402,Web Development
 14171381,Microsoft
 14171381,Politics
 14171318,AI/Machine Learning
 14171240,Apple
 14171000,Politics
-14170967,System Administration
-14170853,Self-driving car
 14170781,Apple
-14170781,Self-driving car
 14170628,Startups
 14170262,Security
 14170247,Databases
@@ -6895,7 +6550,6 @@ id,topic
 14169392,Design
 14169389,Politics
 14169155,Apple
-14169155,Self-driving car
 14169134,Google
 14169092,Google
 14169077,AI/Machine Learning
@@ -6913,7 +6567,6 @@ id,topic
 14167391,Security
 14167382,Design
 14166716,Blockchain
-14166617,Self-driving car
 14166536,Apple
 14166458,Google
 14166401,Apple
@@ -6945,7 +6598,6 @@ id,topic
 14164574,Javascript
 14164529,Startups
 14164523,Blockchain
-14164508,Java
 14164502,Microsoft
 14164487,AI/Machine Learning
 14164454,Microsoft
@@ -6966,7 +6618,6 @@ id,topic
 14163752,Blockchain
 14163746,Web Development
 14163740,Blockchain
-14163725,Tesla
 14163674,Mobile
 14163674,Security
 14163545,Politics
@@ -6979,11 +6630,9 @@ id,topic
 14162837,Microsoft
 14162837,Apple
 14162759,Javascript
-14162726,Self-driving car
 14162711,Microsoft
 14162591,Design
 14162423,Linux
-14162228,Tesla
 14162216,Microsoft
 14162090,Javascript
 14162090,Web Development
@@ -7028,14 +6677,11 @@ id,topic
 14159540,Google
 14159480,Databases
 14159477,Apple
-14159426,Java
 14159357,Databases
 14159270,Amazon
 14159258,Facebook
 14159210,Blockchain
-14159198,Tesla
 14159174,Microsoft
-14159075,Tesla
 14158901,Apple
 14158679,Security
 14158493,Web Development
@@ -7047,7 +6693,6 @@ id,topic
 14157743,Javascript
 14157743,Web Development
 14157464,Microsoft
-14157437,System Administration
 14157281,AI/Machine Learning
 14157236,Design
 14157194,Startups
@@ -7071,7 +6716,6 @@ id,topic
 14155421,Javascript
 14155421,Web Development
 14155394,Databases
-14155349,Self-driving car
 14155196,Javascript
 14155196,Design
 14155187,Mobile
@@ -7092,7 +6736,6 @@ id,topic
 14154386,Google
 14154374,Javascript
 14154224,Python
-14154224,Java
 14154170,Databases
 14154098,Microsoft
 14154095,Amazon
@@ -7142,12 +6785,10 @@ id,topic
 14151446,Amazon
 14151446,Databases
 14151437,Startups
-14151296,System Administration
 14151296,Google
 14151221,Google
 14151218,Linux
 14151173,Apple
-14150969,Java
 14150933,Design
 14150876,Facebook
 14150774,Javascript
@@ -7166,7 +6807,6 @@ id,topic
 14149865,Security
 14149865,Politics
 14149628,Facebook
-14149598,Self-driving car
 14149493,Javascript
 14149418,Microsoft
 14149268,Javascript
@@ -7176,7 +6816,6 @@ id,topic
 14149016,Javascript
 14149016,Web Development
 14149013,Python
-14148974,Java
 14148905,Javascript
 14148656,Javascript
 14148656,Web Development
@@ -7184,7 +6823,6 @@ id,topic
 14148602,Javascript
 14148557,AI/Machine Learning
 14148512,Apple
-14148368,System Administration
 14148326,Amazon
 14148317,AI/Machine Learning
 14148242,Python
@@ -7214,7 +6852,6 @@ id,topic
 14147366,Security
 14147312,AI/Machine Learning
 14147276,Microsoft
-14147252,Java
 14147231,Security
 14147162,Blockchain
 14147024,AI/Machine Learning
@@ -7255,9 +6892,7 @@ id,topic
 14145551,Python
 14145479,Facebook
 14145425,Politics
-14145380,Self-driving car
 14145155,Amazon
-14144948,Java
 14144891,Design
 14144849,Politics
 14144741,Politics
@@ -7284,7 +6919,6 @@ id,topic
 14143292,Javascript
 14143277,Linux
 14143238,Design
-14143022,Tesla
 14142980,Google
 14142974,Facebook
 14142860,Facebook
@@ -7317,7 +6951,6 @@ id,topic
 14141021,Facebook
 14140997,Facebook
 14140994,Startups
-14140991,Tesla
 14140934,Facebook
 14140871,Design
 14140637,Blockchain
@@ -7342,7 +6975,6 @@ id,topic
 14139620,Apple
 14139515,Python
 14139287,Blockchain
-14139086,Java
 14139086,Web Development
 14139053,Startups
 14138942,Javascript
@@ -7360,7 +6992,6 @@ id,topic
 14137799,Blockchain
 14137799,Startups
 14137709,Apple
-14137634,Self-driving car
 14137616,Design
 14137616,Web Development
 14137568,Python
@@ -7399,11 +7030,9 @@ id,topic
 14135198,Web Development
 14135186,Security
 14135186,AI/Machine Learning
-14135162,Self-driving car
 14135108,AI/Machine Learning
 14135045,Javascript
 14135045,Web Development
-14134982,Tesla
 14134823,Politics
 14134538,Startups
 14134277,Google
@@ -7411,15 +7040,12 @@ id,topic
 14134115,Linux
 14133980,Apple
 14133935,Google
-14133878,System Administration
 14133746,Security
 14133728,Amazon
 14133641,AI/Machine Learning
-14133356,Tesla
 14133296,Design
 14133140,Startups
 14133119,AI/Machine Learning
-14133020,System Administration
 14132990,Javascript
 14132990,Web Development
 14132951,Startups
@@ -7454,7 +7080,6 @@ id,topic
 14130302,Microsoft
 14130287,Apple
 14130218,Politics
-14130200,Tesla
 14130158,AI/Machine Learning
 14130116,Politics
 14130101,Mobile
@@ -7521,7 +7146,6 @@ id,topic
 14125520,Web Development
 14125406,AI/Machine Learning
 14125298,Web Development
-14125046,Tesla
 14125028,Blockchain
 14125022,Startups
 14124989,Databases
@@ -7582,7 +7206,6 @@ id,topic
 14120033,Google
 14120027,Google
 14119868,AI/Machine Learning
-14119736,Java
 14119727,Microsoft
 14119676,Web Development
 14119673,AI/Machine Learning
@@ -7592,7 +7215,6 @@ id,topic
 14119535,Design
 14119490,Design
 14119370,Python
-14119271,Self-driving car
 14119217,Amazon
 14119151,Microsoft
 14119067,Google
@@ -7602,7 +7224,6 @@ id,topic
 14119001,Politics
 14118680,Security
 14118680,Amazon
-14118551,Java
 14118413,Microsoft
 14118413,Politics
 14118374,Microsoft
@@ -7621,7 +7242,6 @@ id,topic
 14331860,Startups
 14331836,Google
 14331812,Security
-14331662,Tesla
 14331485,Security
 14331461,Mobile
 14331170,Security
@@ -7638,7 +7258,6 @@ id,topic
 14330633,AI/Machine Learning
 14330555,Mobile
 14330453,Startups
-14330123,Java
 14330090,Security
 14329964,Google
 14329943,Mobile
@@ -7675,7 +7294,6 @@ id,topic
 14326970,Startups
 14326949,AI/Machine Learning
 14326892,Javascript
-14326739,Tesla
 14326499,Security
 14326499,Politics
 14326481,AI/Machine Learning
@@ -7685,14 +7303,12 @@ id,topic
 14326328,Security
 14326328,Politics
 14326181,Politics
-14326178,System Administration
 14326151,Security
 14326085,Startups
 14326061,AI/Machine Learning
 14326034,Security
 14325893,Security
 14325854,Google
-14325830,Java
 14325815,Mobile
 14325719,Google
 14325710,Python
@@ -7758,7 +7374,6 @@ id,topic
 14321741,Mobile
 14321693,Politics
 14321639,Startups
-14321597,Self-driving car
 14321522,Apple
 14321225,Amazon
 14321132,Python
@@ -7771,7 +7386,6 @@ id,topic
 14320277,Linux
 14320139,Apple
 14320025,AI/Machine Learning
-14320025,System Administration
 14320007,Python
 14319980,Mobile
 14319944,Startups
@@ -7779,7 +7393,6 @@ id,topic
 14319752,Javascript
 14319623,Google
 14319560,Mobile
-14319557,Java
 14319479,Politics
 14319179,Startups
 14319074,Security
@@ -7806,25 +7419,20 @@ id,topic
 14318249,Politics
 14318165,Google
 14318003,Startups
-14317946,Tesla
 14317925,Javascript
 14317925,Web Development
 14317922,Security
 14317859,Google
-14317838,System Administration
 14317769,Javascript
 14317700,Mobile
 14317559,Design
 14317559,Microsoft
 14317535,AI/Machine Learning
-14317529,System Administration
-14317316,Tesla
 14317238,Mobile
 14317208,AI/Machine Learning
 14317166,Security
 14317166,AI/Machine Learning
 14317160,Politics
-14317154,System Administration
 14317151,Security
 14317151,Web Development
 14317148,Microsoft
@@ -7851,8 +7459,6 @@ id,topic
 14315804,Linux
 14315774,Google
 14315768,Apple
-14315765,System Administration
-14315735,Self-driving car
 14315720,Web Development
 14315675,Javascript
 14315675,Web Development
@@ -7867,7 +7473,6 @@ id,topic
 14315279,Politics
 14315186,Linux
 14315177,Security
-14315114,Java
 14315015,Design
 14314994,Javascript
 14314994,Web Development
@@ -7884,7 +7489,6 @@ id,topic
 14314175,Blockchain
 14314130,Google
 14314130,Web Development
-14314022,Tesla
 14313986,Politics
 14313746,AI/Machine Learning
 14313713,Microsoft
@@ -7909,18 +7513,14 @@ id,topic
 14311688,AI/Machine Learning
 14311673,Design
 14311583,Javascript
-14311583,Java
 14311583,Web Development
 14311445,AI/Machine Learning
 14311193,Startups
 14311016,Microsoft
-14310890,Java
-14310878,Tesla
 14310677,Blockchain
 14310647,Politics
 14310542,Javascript
 14310542,Web Development
-14310521,Tesla
 14310515,Startups
 14310374,Databases
 14310131,Mobile
@@ -7931,7 +7531,6 @@ id,topic
 14310047,Microsoft
 14310041,Web Development
 14309972,Google
-14309942,Java
 14309930,Amazon
 14309915,Microsoft
 14309906,Design
@@ -7996,12 +7595,9 @@ id,topic
 14307173,Design
 14307173,Apple
 14307056,Mobile
-14307026,Java
 14306984,Politics
 14306966,Design
 14306957,Web Development
-14306942,System Administration
-14306912,Tesla
 14306864,Google
 14306837,Security
 14306837,Politics
@@ -8042,9 +7638,7 @@ id,topic
 14304041,Politics
 14303717,AI/Machine Learning
 14303567,Facebook
-14303510,Tesla
 14303372,Security
-14303351,System Administration
 14303330,Blockchain
 14303264,Politics
 14303237,AI/Machine Learning
@@ -8073,7 +7667,6 @@ id,topic
 14301644,Design
 14301626,Startups
 14301596,Web Development
-14301539,System Administration
 14301479,Databases
 14301467,Google
 14301053,Amazon
@@ -8085,11 +7678,9 @@ id,topic
 14300741,Mobile
 14300741,Apple
 14300576,AI/Machine Learning
-14300546,Java
 14300426,Javascript
 14300396,Security
 14300171,Amazon
-14300162,System Administration
 14300081,Amazon
 14300069,Politics
 14299985,Design
@@ -8113,13 +7704,10 @@ id,topic
 14298869,Web Development
 14298863,Mobile
 14298827,Apple
-14298752,System Administration
 14298704,Javascript
 14298704,Web Development
 14298548,Design
 14298506,Mobile
-14298491,Java
-14298359,Java
 14298221,Politics
 14298215,AI/Machine Learning
 14298200,Politics
@@ -8156,7 +7744,6 @@ id,topic
 14296571,Design
 14296472,Security
 14296418,AI/Machine Learning
-14296418,Self-driving car
 14296331,Facebook
 14296292,Microsoft
 14296232,Javascript
@@ -8167,17 +7754,14 @@ id,topic
 14296001,Security
 14296001,Google
 14296001,Microsoft
-14295998,Java
 14295977,Javascript
 14295827,Javascript
 14295827,Web Development
 14295770,Apple
-14295770,Tesla
 14295650,Javascript
 14295650,Databases
 14295650,Web Development
 14295545,Apple
-14295545,Tesla
 14295506,Web Development
 14295452,Security
 14295452,Web Development
@@ -8190,10 +7774,8 @@ id,topic
 14294540,Databases
 14294534,Design
 14294519,Design
-14294471,Java
 14294417,Politics
 14294408,Javascript
-14294090,Self-driving car
 14294066,Design
 14294048,Google
 14294048,Microsoft
@@ -8228,7 +7810,6 @@ id,topic
 14291114,Facebook
 14291039,Apple
 14290982,Design
-14290943,Java
 14290919,Blockchain
 14290907,Mobile
 14290691,Mobile
@@ -8238,14 +7819,11 @@ id,topic
 14290082,Facebook
 14290070,Google
 14290037,Mobile
-14289842,Java
 14289647,Startups
 14289611,Apple
 14289611,Linux
 14289551,Javascript
 14289551,Web Development
-14289308,Java
-14289083,Self-driving car
 14289050,Politics
 14288906,Facebook
 14288636,Politics
@@ -8267,7 +7845,6 @@ id,topic
 14286383,Microsoft
 14286248,Mobile
 14285918,Startups
-14285876,Java
 14285876,Mobile
 14285795,Facebook
 14285714,Web Development
@@ -8313,7 +7890,6 @@ id,topic
 14281739,Javascript
 14281739,Web Development
 14281706,Microsoft
-14281631,Java
 14281589,Design
 14281532,Python
 14281490,Mobile
@@ -8352,6 +7928,5 @@ id,topic
 14278802,AI/Machine Learning
 14278715,Startups
 14278553,Python
-14278544,Tesla
 14278526,Databases
 14278358,Facebook

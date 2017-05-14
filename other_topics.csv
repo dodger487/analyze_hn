@@ -1,0 +1,4 @@
+Self-driving car,self.*driving|waymo
+Tesla,tesla
+System Administration,sys.*admin|dev.*ops|site reliability|downtime
+Java,java[^s]
