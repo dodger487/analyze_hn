@@ -12,17 +12,92 @@ theme_set(theme_minimal())
 
 ### Topic supervised set
 
-
 ### Analyze story titles
 
 ```{r stories}
 library(tidyverse)
 
-stories <- map_df(dir("../scrape_hn/", pattern = "output.*.csv", full.names = TRUE), read_csv) %>%
+stories <- map_df(dir("../scrape_hn/", pattern = "output.*.csv", full.names = TRUE),
+                  read_csv) %>%
   filter(!is.na(title))
 ```
 
-```{r story_topics}
+Most common words:
+
+```{r story_title_words, dependson = "stories"}
+library(tidytext)
+
+stories %>%
+  unnest_tokens(word, title) %>%
+  anti_join(stop_words, by = "word") %>%
+  filter(!word %in% c("hn")) %>%
+  count(word, sort = TRUE) %>%
+  head(16) %>%
+  mutate(word = reorder(word, n)) %>%
+  ggplot(aes(word, n)) +
+  geom_col() +
+  coord_flip()
+```
+
+```{r title_words, dependson = "stories"}
+title_words <- stories %>%
+  filter(by != "feetlovesocks") %>%
+  unnest_tokens(word, title) %>%
+  anti_join(stop_words, by = "word") %>%
+  filter(str_detect(word, "[^\\d]"))
+```
+
+```{r title_cors, dependson = "title_words"}
+title_cors <- title_words %>%
+  distinct(id, word) %>%
+  add_count(word) %>%
+  filter(n >= 50) %>%
+  pairwise_cor(word, id, sort = TRUE)
+```
+
+```{r title_cor_graph, dependson = "title_cors", fig.width = 8, fig.height = 8}
+library(igraph)
+library(ggraph)
+
+set.seed(2017)
+
+title_cors %>%
+  filter(correlation > .07) %>%
+  graph_from_data_frame() %>%
+  ggraph() +
+  geom_edge_link(aes(edge_alpha = correlation)) +
+  geom_node_point() +
+  geom_node_text(aes(label = name), vjust = 1, hjust = 1) +
+  theme_void()
+```
+
+
+### Read in the story text
+
+```{r articles}
+filenames <- dir("../scrape_hn/stories/", full.names = TRUE)
+names(filenames) <- filenames
+
+articles <- filenames %>%
+  map_df(~ data_frame(text = read_lines(.)), .id = "filename") %>%
+  extract(filename, "id", "(\\d+)", convert = TRUE)
+```
+
+```{r article_words, dependson = "articles"}
+library(tidytext)
+library(stringr)
+
+article_words <- articles %>%
+  unnest_tokens(word, text) %>%
+  filter(!word %in% stop_words$word,
+         str_detect(word, "[^\\d]"))
+```
+
+### Create a supervised topic set
+
+Classify their topics.
+
+```{r story_topics, dependson = c("stories", "articles")}
 library(fuzzyjoin)
 library(stringr)
 topic_regexes <- read_csv("topics.csv")
@@ -37,42 +112,16 @@ story_topics %>%
   write_csv("../analyze_hn/supervised_topics.csv")
 ```
 
-```{r}
-stop <- c(stop_words$word, "hn")
-
-stories %>%
-  unnest_tokens(word, title) %>%
-  filter(!word %in% stop) %>%
-  count(word, sort = TRUE) %>%
-  head(20)
-```
-
-
-### Read in the story text
-
-```{r articles}
-filenames <- dir("../hn_scrape/stories/", full.names = TRUE)
-names(filenames) <- filenames
-
-articles <- filenames %>%
-  map_df(~ data_frame(text = read_lines(.)), .id = "filename") %>%
-  extract(filename, "id", "(\\d+)", convert = TRUE)
-```
+How many instances of each article occurred?
 
 ```{r}
-
+story_topics %>%
+  count(topic, sort = TRUE) %>%
+  ggplot(aes())
 ```
 
 
-```{r article_words, dependson = "articles"}
-library(tidytext)
-library(stringr)
-
-article_words <- articles %>%
-  unnest_tokens(word, text) %>%
-  filter(!word %in% stop_words$word,
-         str_detect(word, "[^\\d]"))
-```
+### More analysis of articles
 
 ```{r article_word_cors}
 library(widyr)
@@ -80,9 +129,42 @@ library(widyr)
 article_word_cors <- article_words %>%
   distinct(id, word) %>%
   add_count(word) %>%
-  filter(n >= 40) %>%
+  filter(n >= 100) %>%
   pairwise_cor(word, id, sort = TRUE)
 ```
+
+```{r article_word_matrix}
+library(broom)
+
+article_word_matrix <- article_words %>%
+  distinct(id, word) %>%
+  add_count(word) %>%
+  filter(n >= 200) %>%
+  cast_sparse(id, word)
+```
+
+```{r}
+library(topicmodels)
+
+article_word_tm <- LDA(article_word_matrix, 20)
+```
+
+```{r}
+library(drlib)
+
+tidy(article_word_tm) %>%
+  group_by(topic) %>%
+  top_n(10, beta) %>%
+  ungroup() %>%
+  mutate(term = reorder_within(term, beta, topic)) %>%
+  ggplot(aes(term, beta, fill = factor(topic))) +
+  geom_col(show.legend = FALSE) +
+  coord_flip() +
+  scale_x_reordered() +
+  facet_wrap(~ topic, scales = "free")
+```
+
+
 
 ```{r}
 library(igraph)
@@ -91,7 +173,7 @@ library(ggraph)
 set.seed(2017)
 
 article_word_cors %>%
-  filter(correlation > .35) %>%
+  filter(correlation > .3) %>%
   graph_from_data_frame() %>%
   ggraph() +
   geom_edge_link(aes(edge_alpha = correlation)) +
@@ -101,6 +183,93 @@ article_word_cors %>%
 ```
 
 
+```{r article_word_matrix}
+library(broom)
+
+article_word_matrix <- article_words %>%
+  distinct(id, word) %>%
+  add_count(word) %>%
+  filter(n >= 100) %>%
+  semi_join(story_topics, by = "id") %>%
+  cast_sparse(id, word)
+```
+ 
+```{r models, dependson = "article_word_matrix"}
+library(glmnet)
+library(doMC)
+
+registerDoMC(cores = 2)
+
+fit_model <- function(topic, positive_set) {
+  message(topic)
+  is_type <- rownames(article_word_matrix) %in% positive_set$id
+  gcv <- cv.glmnet(article_word_matrix, is_type,
+                   family = "binomial", nfolds = 10,
+                   keep = TRUE)
+}
+
+models <- story_topics %>%
+  semi_join(articles, by = "id") %>%
+  add_count(topic) %>%
+  filter(n >= 50) %>%
+  nest(-topic) %>%
+  mutate(model = map2(topic, data, fit_model))
+```
+
+```{r article_word_cors, dependson = "article_words"}
+library(widyr)
+
+article_word_cors <- article_words %>%
+  distinct(id, word) %>%
+  add_count(word) %>%
+  filter(n >= 30) %>%
+  pairwise_cor(word, id, sort = TRUE)
+```
+
+```{r}
+library(drlib)
+
+clean_model <- function(g) {
+  tidy(g$glmnet.fit) %>%
+    filter(lambda == g$lambda.1se) %>%
+    arrange(desc(estimate))
+}
+
+models %>%
+  unnest(map(model, clean_model)) %>%
+  filter(term != "(Intercept)") %>%
+  group_by(topic) %>%
+  top_n(12, abs(estimate)) %>%
+  ungroup() %>%
+  mutate(term = reorder_within(term, estimate, topic)) %>%
+  ggplot(aes(term, estimate, fill = estimate > 0)) +
+  geom_col(show.legend = FALSE) +
+  coord_flip() +
+  facet_wrap(~ topic, scales = "free_y") +
+  scale_x_reordered()
+```
+
+```{r glmnet_aucs}
+get_holdout_predictions <- function(data, mod) {
+  data_frame(id = as.integer(rownames(article_word_matrix)),
+             .fitted = mod$fit.preval[, mod$lambda == mod$lambda.1se])
+}
+
+source("~/Dropbox/tidyroc/R/tidyroc.R")
+
+models %>%
+  unnest(map2(data, model, get_holdout_predictions)) %>%
+  left_join(mutate(story_topics, correct = TRUE), by = c("topic", "id")) %>%
+  replace_na(list(correct = FALSE)) %>%
+  group_by(topic) %>%
+  roc(correct, .fitted) %>%
+  summarize_auc() %>%
+  arrange(desc(auc))
+  mutate(topic = reorder(topic, auc)) %>%
+  ggplot(aes(topic, auc)) +
+  geom_col() +
+  coord_flip()
+```
 
 
 ```{r}
@@ -142,19 +311,3 @@ article_dtm <- article_words %>%
 
 topic_model <- LDA(comment_dtm, k = 25, control = list(seed = 11))
 ```
-
-```{r}
-library(drlib)
-
-tidy(topic_model) %>%
-  group_by(topic) %>%
-  top_n(10, beta) %>%
-  ungroup() %>%
-  mutate(term = reorder_within(term, beta, topic)) %>%
-  ggplot(aes(term, beta, fill = factor(topic))) +
-  geom_col(show.legend = FALSE) +
-  coord_flip() +
-  scale_x_reordered() +
-  facet_wrap(~ topic, scales = "free")
-```
-
