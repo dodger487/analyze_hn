@@ -40,7 +40,31 @@ story_topics %>%
   write_csv("../analyze_hn/supervised_topics.csv")
 ```
 
-Most common words:
+```{r}
+stories %>%
+  anti_join(story_topics, by = "id") %>%
+  unnest_tokens(word, title, drop = FALSE) %>%
+  anti_join(stop_words, by = "word") %>%
+  filter(word == "code") %>%
+  View()
+```
+
+
+```{r story_topics_bar, dependson = "story_topics"}
+num_stories <- n_distinct(story_topics$id)
+
+story_topics %>%
+  count(topic, sort = TRUE) %>%
+  mutate(topic = reorder(topic, n)) %>%
+  ggplot(aes(topic, n / num_stories)) +
+  geom_col() +
+  scale_y_continuous(labels = percent_format()) +
+  coord_flip() +
+  labs(x = "",
+       y = "% of articles with this topic",
+       title = "Topics with the most representation in training set")
+```
+
 
 ```{r story_title_words, dependson = "stories"}
 library(tidytext)
@@ -50,7 +74,7 @@ stories %>%
   anti_join(stop_words, by = "word") %>%
   filter(!word %in% c("hn")) %>%
   count(word, sort = TRUE) %>%
-  head(16) %>%
+  head(20) %>%
   mutate(word = reorder(word, n)) %>%
   ggplot(aes(word, n)) +
   geom_col() +
@@ -104,7 +128,9 @@ cors %>%
   scale_size_continuous(range = c(1, 10)) +
   theme_void() +
   labs(size = "Articles",
-       color = "Average score")
+       color = "Average score",
+       title = "Words clustered in Hacker News posts",
+       subtitle = "Alongside ")
 ```
 
 ```{r cache = FALSE}
@@ -134,21 +160,6 @@ article_words <- articles %>%
 ```
 
 How many instances of each article occurred?
-
-```{r story_topics_bar, dependson = "story_topics"}
-num_stories <- n_distinct(story_topics$id)
-
-story_topics %>%
-  count(topic, sort = TRUE) %>%
-  mutate(topic = reorder(topic, n)) %>%
-  ggplot(aes(topic, n / num_stories)) +
-  geom_col() +
-  scale_y_continuous(labels = percent_format()) +
-  coord_flip() +
-  labs(x = "",
-       y = "% of articles with this topic",
-       title = "Topics with the most representation in training set")
-```
 
 ### More analysis of articles
 
