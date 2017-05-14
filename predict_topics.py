@@ -14,15 +14,16 @@ from nltk.corpus import stopwords
 import pandas as pd
 from sklearn import linear_model, feature_extraction, cross_validation, metrics
 
+
 label_df = DplyFrame(pd.read_csv("supervised_topics.csv"))
 
-# ARTICLE_PATH = "../scrape_hn/stories/"
-# fnames = [join(ARTICLE_PATH, f) for f in listdir(ARTICLE_PATH) 
-#               if isfile(join(ARTICLE_PATH, f))]
-
 # TODO: load models etc.
-dictionary = corpora.Dictionary.load("hn_dictionaryMay13_2152.pkl")
-lda = models.ldamodel.LdaModel.load("model_100topics_10passMay13_2159.gensim")
+# Older LDA, worked fine!
+# dictionary = corpora.Dictionary.load("hn_dictionaryMay13_2152.pkl")
+# lda = models.LdaModel.load("model_100topics_10passMay13_2159.gensim")
+
+dictionary = corpora.Dictionary.load("hn_dictionaryMay14_0005.pkl")
+lda = models.LdaModel.load("model_100topics_10passMay14_0018.gensim")
 
 
 def label_article(text, trained_model):
@@ -42,8 +43,14 @@ def story_id_to_topicdict(story_id, trained_model=lda):
   """
   with open(join(ARTICLE_PATH, str(story_id) + ".txt")) as f:
     text = f.read()
-
   return article_to_dict(text, trained_model)
+
+
+def makeTimeFilename(prefix, ext):
+  """Creates a filename with the time in it."""  
+  suffix = time.strftime("%b%d_%H%M") + ext
+  return prefix + suffix
+
 
 labels = []
 topic_dicts = []
@@ -70,79 +77,49 @@ story_ids2 = np.array(list(story_id_to_topics.keys()))
 data = np.array([[tdict.get(i, 0) for i in range(lda.num_topics)]
                   for tdict in story_id_to_topics.values()])
 
-results = []
-models = {}
+# results = []
+# # lr_models = {}
+# for label in set(labels):
+#   positive_story_ids = set(df >> sift(X["labels"] == label) >> X.story_id.values)
+#   y_ = np.array([s in positive_story_ids for s in story_ids2])
+#   X_ = data
+#   lr = linear_model.LogisticRegression(C=C)
+#   cv_score = cross_validation.cross_val_score(
+#     lr, X_, y_, cv=10, scoring="roc_auc").mean()
+#   lr = lr.fit(X_, y_)
+#   # lr_models[label] = lr
+#   probs = lr.predict_proba(X_)[:, 1]
+#   results.append({"alg": "log reg", "label": label, "auc": cv_score})
+#   print(C, label, cv_score, len(probs[probs > 0.19]), Counter(labels == label))
+#   print()
+# results_df = pd.DataFrame(results)
+
+# lr_fname = makeTimeFilename("models/logistic_models_", ".pkl")
+# print("writing file", lr_fname)
+# with open(lr_fname, "wb") as f:
+#   pickle.dump(lr_models, f, protocol=2)
+
+
+rf_models = {}
 for label in set(labels):
   positive_story_ids = set(df >> sift(X["labels"] == label) >> X.story_id.values)
   y_ = np.array([s in positive_story_ids for s in story_ids2])
   X_ = data
-  lr = linear_model.LogisticRegression(C=C)
-  cv_score = cross_validation.cross_val_score(
-    lr, X_, y_, cv=10, scoring="roc_auc").mean()
-  lr = lr.fit(X_, y_)
-  models[label] = lr
-  probs = lr.predict_proba(X_)[:, 1]
-  print(C, label, cv_score, len(probs[probs > 0.2]), Counter(labels == label))
+  rf = ensemble.RandomForestClassifier(n_estimators=200)
+
+  # cv_score = cross_validation.cross_val_score(
+  #   rf, X_, y_, cv=10, scoring="roc_auc").mean()
+
+  rf.fit(X_, y_)
+  rf_models[label] = rf
+  # results.append({"alg": "random forest", "label": label, "auc": cv_score})
+  # print(label, cv_score)
+  print(label, "done")
   print()
 
-with open("models/logistic_models.pkl", "wb") as f:
-  pickle.dump(models, f)
-
-results_df = DplyFrame(results)
-
-
-def label_article(text, trained_model):
-  text = text.lower()
-  tokens = nltk.word_tokenize(text)
-  bow = dictionary.doc2bow(tokens)
-  return trained_model[bow]
+rf_fname = makeTimeFilename("models/randomforest_models", ".pkl")
+print("writing random forest file", rf_fname)
+with open(rf_fname, "wb") as f:
+  pickle.dump(rf_models, f, protocol=2)
 
 
-
-
-
-# data = np.array([[tdict.get(i, 0) for i in range(lda.num_topics)]
-#                   for tdict in story_id_to_topics.values()])
-
-class TextTagger(object):
-  """Object which tags articles. Needs topic modeler and """
-  def __init__(self, topic_modeler, gensim_dict, lr_dict, threshold=0.5):
-    super(TextTagger, self).__init__()
-    self.topic_modeler = topic_modeler
-    self.gensim_dict = gensim_dict
-    self.lr_dict = lr_dict
-    self.threshold = threshold
-
-  def text_to_topic_list(self, text):
-    text = text.lower()
-    tokens = nltk.word_tokenize(text)
-    bow = self.gensim_dict.doc2bow(tokens)
-    return self.topic_modeler[bow]    
-
-  def text_to_numpy(self, text):
-    out = np.zeros(self.topic_modeler.num_topics)
-    for idx, val in self.text_to_topic_list(text):
-      out[idx] = val
-    return out
-    
-  def text_to_topic_dict(self, text):
-    return {topic: weight for topic, weight in self.label_article(text)}
-
-  def text_to_tags(self, text):
-    input_vect = np.array([self.text_to_numpy(text)])
-    tags = []
-    for label, lr_model in self.lr_dict.items():
-      tag_prob = lr_model.predict_proba(input_vect)[0, 1]
-      print(label, tag_prob)
-      if tag_prob > self.threshold:
-        tags.append(label)
-    return tags
-
-  @classmethod
-  def init_from_files(cls, topic_model_fname, gensim_dict_fname, lr_dict_fname,
-                      *args, **kwargs):
-    topic_modeler = models.ldamodel.LdaModel.load(topic_model_fname)
-    gensim_dict = corpora.Dictionary.load(gensim_dict_fname)
-    with open(lr_dict_fname, "rb") as f:
-      lr_dict = pickle.load(f)
-    return cls(topic_modeler, gensim_dict, lr_dict, *args, **kwargs)

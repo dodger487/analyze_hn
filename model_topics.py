@@ -14,7 +14,7 @@ from os.path import isfile, join
 import string
 import time
 
-from gensim import corpora, models
+from gensim import corpora, models, utils
 import nltk
 from nltk.corpus import stopwords
 
@@ -43,7 +43,7 @@ for fname in fnames:
 
 # Convert to list of tokens
 article_texts = [a.lower() for a in article_texts]
-token_list = [nltk.word_tokenize(article_text) for article_text in article_texts]
+token_list = [list(utils.tokenize(article_text)) for article_text in article_texts]
 
 # Get high frequency words
 token_counts = Counter(itertools.chain(*token_list))
@@ -90,3 +90,5 @@ def show_topics(text, trained_model, n=20):
   for topic, weight in sorted(topics_and_weights, key=lambda x: -x[1]):
     print(weight, topic, trained_model.print_topic(topic, n))
     print()
+
+
