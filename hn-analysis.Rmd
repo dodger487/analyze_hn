@@ -87,7 +87,7 @@ word_summary <- title_words %>%
   filter(word %in% cors$item1 | word %in% cors$item2)
 ```
 
-```{r title_cor_graph, dependson = "word_summary", fig.width = 9, fig.height = 9}
+```{r title_cor_graph, dependson = "word_summary", fig.width = 12, fig.height = 10, dpi = 500}
 library(igraph)
 library(ggraph)
 
@@ -98,7 +98,7 @@ cors %>%
   ggraph() +
   geom_edge_link(aes(edge_alpha = correlation), show.legend = FALSE) +
   geom_node_point(aes(size = occurences, color = average_score)) +
-  geom_node_text(aes(label = name), vjust = 1, hjust = 1) +
+  geom_node_text(aes(label = name), vjust = 1, hjust = 1, check_overlap = TRUE) +
   scale_color_gradient2(trans = "log", low = "blue", high = "red",
                         midpoint = log(2.5), breaks = c(1, 2, 4)) +
   scale_size_continuous(range = c(1, 10)) +
