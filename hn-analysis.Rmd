@@ -4,7 +4,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, cache = TRUE)
 
 library(ggplot2)
 library(scales)
@@ -40,7 +40,6 @@ story_topics %>%
   write_csv("../analyze_hn/supervised_topics.csv")
 ```
 
-
 Most common words:
 
 ```{r story_title_words, dependson = "stories"}
@@ -60,39 +59,56 @@ stories %>%
 
 ```{r title_words, dependson = "stories"}
 title_words <- stories %>%
-  filter(by != "feetlovesocks") %>%
-  unnest_tokens(word, title) %>%
+  filter(by != "feetlovesocks",
+         !str_detect(str_to_lower(title), "crack|download")) %>%
+  arrange(desc(score)) %>%
+  distinct(title, .keep_all = TRUE) %>%
+  unnest_tokens(word, title, drop = FALSE) %>%
+  distinct(id, word, .keep_all = TRUE) %>%
   anti_join(stop_words, by = "word") %>%
   filter(str_detect(word, "[^\\d]"))
 ```
 
-```{r title_cors, dependson = "title_words"}
+```{r word_summary, dependson = "title_words"}
 title_cors <- title_words %>%
-  distinct(id, word) %>%
   add_count(word) %>%
-  filter(n >= 50) %>%
+  filter(n >= 40) %>%
   pairwise_cor(word, id, sort = TRUE)
+
+cors <- title_cors %>%
+  filter(correlation > .08)
+
+word_summary <- title_words %>%
+  group_by(word) %>%
+  filter(n() >= 40) %>%
+  summarize(occurences = n(),
+            median_score = median(score),
+            average_score = exp(mean(log(score)))) %>%
+  filter(word %in% cors$item1 | word %in% cors$item2)
 ```
 
-```{r title_cor_graph, dependson = "title_cors", fig.width = 8, fig.height = 8}
+```{r title_cor_graph, dependson = "word_summary", fig.width = 9, fig.height = 9}
 library(igraph)
 library(ggraph)
 
-word_summary <- title_words %>%
-  add_count(word) %>%
-  filter(n >= 50) %>%
-  group_by(word) %>% 
-
 set.seed(2017)
 
-title_cors %>%
-  filter(correlation > .07) %>%
-  graph_from_data_frame() %>%
+cors %>%
+  graph_from_data_frame(vertices = word_summary) %>%
   ggraph() +
-  geom_edge_link(aes(edge_alpha = correlation)) +
-  geom_node_point() +
+  geom_edge_link(aes(edge_alpha = correlation), show.legend = FALSE) +
+  geom_node_point(aes(size = occurences, color = average_score)) +
   geom_node_text(aes(label = name), vjust = 1, hjust = 1) +
-  theme_void()
+  scale_color_gradient2(trans = "log", low = "blue", high = "red",
+                        midpoint = log(2.5), breaks = c(1, 2, 4)) +
+  scale_size_continuous(range = c(1, 10)) +
+  theme_void() +
+  labs(size = "Articles",
+       color = "Average score")
+```
+
+```{r cache = FALSE}
+knitr::knit_exit()
 ```
 
 
@@ -121,7 +137,7 @@ How many instances of each article occurred?
 
 ```{r story_topics_bar, dependson = "story_topics"}
 num_stories <- n_distinct(story_topics$id)
-  
+
 story_topics %>%
   count(topic, sort = TRUE) %>%
   mutate(topic = reorder(topic, n)) %>%
@@ -195,17 +211,6 @@ article_word_cors %>%
 ```
 
 
-```{r article_word_matrix}
-library(broom)
-
-article_word_matrix <- article_words %>%
-  distinct(id, word) %>%
-  add_count(word) %>%
-  filter(n >= 100) %>%
-  semi_join(story_topics, by = "id") %>%
-  cast_sparse(id, word)
-```
- 
 ```{r models, dependson = "article_word_matrix"}
 library(glmnet)
 library(doMC)
@@ -226,16 +231,6 @@ models <- story_topics %>%
   filter(n >= 50) %>%
   nest(-topic) %>%
   mutate(model = map2(topic, data, fit_model))
-```
-
-```{r article_word_cors, dependson = "article_words"}
-library(widyr)
-
-article_word_cors <- article_words %>%
-  distinct(id, word) %>%
-  add_count(word) %>%
-  filter(n >= 30) %>%
-  pairwise_cor(word, id, sort = TRUE)
 ```
 
 ```{r}
