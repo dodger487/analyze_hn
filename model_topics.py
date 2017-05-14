@@ -12,6 +12,7 @@ logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
 from os import listdir
 from os.path import isfile, join
 import string
+import time
 
 from gensim import corpora, models
 import nltk
@@ -20,6 +21,14 @@ from nltk.corpus import stopwords
 STOPWORDS = set(stopwords.words('english'))
 ARTICLE_PATH = "../scrape_hn/stories/"
 
+
+def makeTimeFilename(prefix, ext):
+  """Creates a filename with the time in it."""  
+  suffix = time.strftime("%b%d_%H%M") + ext
+  return prefix + suffix
+
+
+# Load data
 fnames = [join(ARTICLE_PATH, f) for f in listdir(ARTICLE_PATH) 
               if isfile(join(ARTICLE_PATH, f))]
 article_texts = []
@@ -55,6 +64,9 @@ token_docs = [doc for doc in token_docs if len(doc) > 0]
 
 # Make Gensim dictionary
 dictionary = corpora.Dictionary(token_docs)
+dict_fname = makeTimeFilename("hn_dictionary", ".pkl")
+dictionary.save(dict_fname)
+
 
 # Create corpus for topic model training
 corpus = [dictionary.doc2bow(doc) for doc in token_docs]
@@ -63,6 +75,8 @@ corpus = [dictionary.doc2bow(doc) for doc in token_docs]
 # model_hi = models.LdaMulticore(
 #     corpus, id2word=dictionary, num_topics=100, passes=4, workers=2)
 model_hi = models.ldamodel.LdaModel(corpus, id2word=dictionary, num_topics=100, passes=10)
+model_fname = makeTimeFilename("model_100topics_10pass", ".gensim")
+model_hi.save(model_fname)
 
 
 def label_article(text, trained_model):
@@ -70,6 +84,7 @@ def label_article(text, trained_model):
   tokens = nltk.word_tokenize(text)
   bow = dictionary.doc2bow(tokens)
   return trained_model[bow]
+
 
 def show_topics(text, trained_model, n=20):
   topics_and_weights = label_article(text, trained_model)
